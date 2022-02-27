@@ -1,0 +1,159 @@
+
+[
+    {
+        "name": "STATION_FUNC",
+        "index": 1,
+        "title": "功能测试",
+        "items": [
+            {
+              "item_index": 1,
+              "name": "RTC_CHECK" ,
+              "switch": "on",
+              "mes_check": false,
+              "des": "RTC精度和校准测试",
+              "owner":"STATION_FUNC",
+              "keep_test":false
+            },
+            {
+                "item_index":2,
+                "name": "INFO_PROGRAMMING",
+                "switch": "on",
+                "mes_check": false,
+                "description": "烧录信息",
+                "owner": "STATION_FUNC",
+                "keep_test":false
+            },
+            {
+                "item_index":3,
+                "name": "HOST_CFG_SET",
+                "switch": "on",
+                "mes_check": false,
+                "description": "机器配置设定",
+                "owner": "STATION_FUNC",
+                "keep_test":false
+            },
+            {
+                "item_index": 4,
+                "name": "CPU_CHECK",
+                "switch": "on",
+                "mes_check": false,
+                "description": "CPU配置校验",
+                "owner": "STATION_FUNC",
+                "keep_test": false
+            },
+            {
+                "item_index": 5,
+                "name": "DISK_CHECK",
+                "switch": "on",
+                "mes_check": false,
+                "description": "硬盘配置测试",
+                "owner": "STATION_FUNC",
+                "keep_test": false
+            },
+            {
+                "item_index": 6,
+                "name": "VENEER_HEALTH_CHECK",
+                "switch": "on",
+                "mes_check": false,
+                "description": "单板健康测试",
+                "owner": "STATION_FUNC",
+                "keep_test": false
+            },
+            {
+                "item_index": 7,
+                "name": "MAC_ADDRESS_CHECK",
+                "switch": "on",
+                "mes_check": false,
+                "description": "mac地址校验",
+                "owner": "STATION_FUNC",
+                "keep_test": false
+            },
+            {  
+                "item_index": 8,
+                "name": "BlackListCheck",
+                "switch": "on",
+                "mes_check": false,
+                "description": "黑名单",
+                "owner": "STATION_FUNC",
+                "keep_test": false
+            }
+        ]
+    },
+    {
+        "name": "STATION_STRESS",
+        "index": 2,
+        "title": "老化测试",
+        "items": [
+            {
+                "item_index": 1,
+                "name": "STRESS_ALL",
+                "switch": "on",
+                "mes_check": false,
+                "description": "所有压力测试",
+                "owner": "STATION_STRESS",
+                "keep_test":false
+            },
+            {
+                "item_index": 2,
+                "name": "MCE_ECC",
+                "switch": "on",
+                "mes_check": false,
+                "description": "CPU MCE 和内存ECC检测",
+                "owner": "STATION_STRESS",
+                "keep_test":false
+            },
+            {
+                "item_index": 3,
+                "name": "CPU_STRESS",
+                "switch": "on",
+                "mes_check": false,
+                "description": "CPU负载测试",
+                "owner": "STATION_STRESS",
+                "keep_test":false
+            },
+            {
+                "item_index": 4,
+                "name": "MEM_STRESS",
+                "switch": "on",
+                "mes_check": false,
+                "description": "内存负载测试",
+                "owner": "STATION_STRESS",
+                "keep_test":false
+            },
+            {
+                "item_index": 5,
+                "name": "HDD_STRESS",
+                "switch": "on",
+                "mes_check": false,
+                "description": "硬盘读写测试",
+                "owner": "STATION_STRESS",
+                "keep_test":false
+            },
+            {
+                "item_index": 6,
+                "name": "LAN_STRESS",
+                "switch": "on",
+                "mes_check": false,
+                "description": "网络测试",
+                "owner": "STATION_STRESS",
+                "keep_test":false
+            }
+        ]
+    },
+    {
+        "name": "STATION_FINAL",
+        "index": 3,
+        "title": "老化测试",
+        "items": [
+            {
+                "item_index":1,
+                "name": "LOG_CLEAN_TEST", 
+                "switch": "on", 
+                "mes_check": false,
+                "description": "日志清除测试",
+                "owner": "STATION_FINAL",
+                "keep_test":false
+            }
+        ]   
+    }
+]
