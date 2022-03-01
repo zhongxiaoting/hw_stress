@@ -31,6 +31,7 @@ class Item(object):
         response =r.Request().get(c.MES_HOST)
         if response:
             print(response)
+
     # test pass
     def result_pass(self):
         l.title_item(self.info['name']+ ' PASS ')

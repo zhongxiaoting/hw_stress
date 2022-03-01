@@ -5,6 +5,7 @@ import time
 from main.item import Item
 import sys
 from common import common_value as cv, constants as c
+from utils import decorator
 
 sys.path.append("..")
 
@@ -20,13 +21,14 @@ class MEM_STRESS(Item):
     def get_mem(self):
         out = self.run_cmd("free -m|grep Mem")
         mem = out.split()[3]
-        print(mem)
+        # print(mem)
         return int(mem) - 10240
 
+    @decorator.item_test
     def mem_check(self):
-        cv.remove_log(c.MEM_STRESS_LOG_PATH)
-        free_mem = 10240
-        # free_mem = self.get_mem() * 0.98
+        # cv.remove_log(c.MEM_STRESS_LOG_PATH)
+        # free_mem = 10240
+        free_mem = self.get_mem() * 0.98
         write_log("=============  MEM Stress Check Begin  " + get_local_time_string() + " ================")
         shell = "timeout {} memtester {} 1 >> {}".format(c.RUN_SECONDS, int(free_mem), c.MEM_STRESS_LOG_PATH)
         write_log("The Command Line ->>> " + shell + "\n")
@@ -37,7 +39,7 @@ class MEM_STRESS(Item):
 
 def write_log(s):
     with open(c.MEM_STRESS_LOG_PATH, 'a+') as f:
-        # print(s)
+        print(s)
         f.write(str(s) + '\n')
         f.flush()
         os.fsync(f)

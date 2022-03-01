@@ -24,7 +24,6 @@ class LOSS_DISK(Item):
             memtester = mem_run()
             stress = stress_run()
             lan = lan_run()
-            now_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             # print("stress->> " + str(stress) + "   memtester->> " + str(memtester) + "   fio->> "
             #           + str(fio))
             if stress and memtester and fio and lan:

@@ -2,12 +2,13 @@
 core_num=$(cat /proc/cpuinfo | grep -c processor)-5
 core_num=`expr "$core_num" - 5`
 
+cd /home/hw_stress/tools
 tar -zxvf /home/hw_stress/tools/stress-1.0.4.tar.gz
 tar -zxvf /home/hw_stress/tools/memtester-4.5.1.tar.gz
 tar -zxvf /home/hw_stress/tools/fio-3.20.tar.gz
 
 
-cd /home/hw_stress/tools
+
 rpm -ivf net-tools-2.0-0.25.20131004git.el7.x86_64.rpm
 rpm -ivf net-snmp-libs-5.7.2-49.el7_9.1.x86_64.rpm
 rpm -ivf OpenIPMI-modalias-2.0.27-1.el7.x86_64.rpm OpenIPMI-libs-2.0.27-1.el7.x86_64.rpm OpenIPMI-2.0.27-1.el7.x86_64.rpm

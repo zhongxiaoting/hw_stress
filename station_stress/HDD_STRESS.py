@@ -10,7 +10,6 @@ from common import common_value as cv, constants as c
 
 sys.path.append("..")
 
-
 class HDD_STRESS(Item):
     def __init__(self, info):
         super(HDD_STRESS, self).__init__()

@@ -22,10 +22,10 @@ class MCE_ECC(Item):
         self.mem_ecc_check()
 
     # CPU MCE检测
+    @decorator.item_test
     def cpu_mce_check(self):
         # 安装CPU MEC检测工具
         # aa = self.run_cmd("cd tools && sh rasdaemon.sh")
-        cv.remove_log(c.MCE_ECC_LOG)
         cpu_mec_display = self.run_cmd(CMD_GET_CPU_MCE)
         write_log("=============  CPU MCE Check Begin  " + get_local_time_string() + " ================")
         write_log(cpu_mec_display)
@@ -35,6 +35,7 @@ class MCE_ECC(Item):
 
     # 内存ECC检测
     def mem_ecc_check(self):
+        ecc_clear = self.run_cmd("ipmitool sel clear")
         ecc_infor = self.run_cmd("ipmitool sel list")
         write_log("=============  MEM ECC Check Begin  " + get_local_time_string() + " ================")
         write_log(ecc_infor)

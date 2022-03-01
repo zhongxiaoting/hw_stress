@@ -38,7 +38,7 @@ def make_date_log_dir():
     make_sn_dir()
     date_dir = str(get_local_time_string())
     if not os.path.exists('/home/hw_stress/log/' + sn_path + '/' + date_dir):
-        make_date_dir = commands.getstatusoutput("cd /log/%s && mkdir %s" % (sn_path, date_dir))
+        make_date_dir = commands.getstatusoutput("cd /home/hw_stress/log/%s && mkdir %s" % (sn_path, date_dir))
         return date_dir
     return date_dir
 

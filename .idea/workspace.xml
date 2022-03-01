@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dff68348-a2a1-4de5-aecd-888b9bb8a5d7" name="Changes" comment="Init" />
+    <list default="true" id="dff68348-a2a1-4de5-aecd-888b9bb8a5d7" name="Changes" comment="Init">
+      <change beforePath="$PROJECT_DIR$/.idea/hw_stress.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hw_stress.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/make_log_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/make_log_dir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cfg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/do.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/do.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/makeraid0.sh" beforeDir="false" afterPath="$PROJECT_DIR$/shell/makeraid0.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell/tool_install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/shell/tool_install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/station_stress/BlackListCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/station_stress/BlackListCheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/station_stress/CPU_STRESS.py" beforeDir="false" afterPath="$PROJECT_DIR$/station_stress/CPU_STRESS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/station_stress/HDD_STRESS.py" beforeDir="false" afterPath="$PROJECT_DIR$/station_stress/HDD_STRESS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/station_stress/LOSS_DISK.py" beforeDir="false" afterPath="$PROJECT_DIR$/station_stress/LOSS_DISK.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/station_stress/MCE_ECC.py" beforeDir="false" afterPath="$PROJECT_DIR$/station_stress/MCE_ECC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/station_stress/MEM_STRESS.py" beforeDir="false" afterPath="$PROJECT_DIR$/station_stress/MEM_STRESS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/station_stress/ww.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/decorator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +72,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -218,6 +237,10 @@
       <workItem from="1645781603710" duration="442000" />
       <workItem from="1645782065682" duration="2279000" />
       <workItem from="1645956598929" duration="1476000" />
+      <workItem from="1645963831055" duration="3157000" />
+      <workItem from="1646011066349" duration="7350000" />
+      <workItem from="1646038150939" duration="710000" />
+      <workItem from="1646097396883" duration="10098000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1641986091743</created>
@@ -268,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645958212308</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Init">
+      <created>1645963894453</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645963894453</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +326,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test2$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1640575214033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hw_stress$test.coverage" NAME="test Coverage Results" MODIFIED="1646132053918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test2$STRESS_ALL.coverage" NAME="STRESS_ALL Coverage Results" MODIFIED="1640853383413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/station_stress" />
     <SUITE FILE_PATH="coverage/test2$test.coverage" NAME="test Coverage Results" MODIFIED="1643077400053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

@@ -34,6 +34,7 @@ class CPU_STRESS(Item):
         threadnum = int(freecpu * (int(core_num) - 1))
         return threadnum
 
+    @decorator.item_test
     def stress_check(self):
         threadnum = self.get_thread_num()
         cv.remove_log(c.CPU_STRESS_LOG_PATH)
@@ -49,7 +50,7 @@ class CPU_STRESS(Item):
 
 def write_log(s):
     with open(c.CPU_STRESS_LOG_PATH, 'a+') as f:
-        # print(s)
+        print(s)
         f.write(str(s) + '\n')
         f.flush()
         os.fsync(f)

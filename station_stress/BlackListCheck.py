@@ -23,12 +23,12 @@ class BlackListCheck(Item):
     def run_item(self):
         self.report_info('S')
         self.check_hdd()
-        self.check_nvme()
-        self.check_mcelog()
-        self.check_ethernet_errors()
-        self.check_PCIE_errors()
-        self.check_SEL()
-        self.look_ecc()
+        #self.check_nvme()
+        #self.check_mcelog()
+        #self.check_ethernet_errors()
+        #self.check_PCIE_errors()
+        #self.check_SEL()
+        #self.look_ecc()
         #write_log('check blacklist finished')
         if len(self.results) == 0:
             self.report_info('P')
@@ -129,7 +129,7 @@ class BlackListCheck(Item):
         SAS_h='SMART Health Status: OK'
         cmd='lspci |grep -i "raid"'
         all=commands.getstatusoutput(cmd)
-        #print(all)
+
 
         if len(all[1])!=0:
             print(all)
@@ -164,11 +164,10 @@ class BlackListCheck(Item):
                     # msg_info = commands.getstatusoutput(cmd)
                     cmd = 'smartctl -a -d megaraid,%d /dev/%s' % (panfu_list[i],yingpan_list[i])
                     yp_info=commands.getstatusoutput(cmd)
-                    #yp_info=self.run_cmd(cmd).split('\n')
-                    sn=re.findall(r'(Serial Number:(.*))',yp_info[1])
+                    #sn=re.findall(r'(Serial Number:(.*))',yp_info[1])
+                    cmd = 'smartctl -a -d megaraid,%d /dev/%s |grep -i "Serial number:"' % (panfu_list[i],yingpan_list[i])
+                    sn = commands.getstatusoutput(cmd)
                     for line in yp_info[1].split('\n'):
-                        #print(line)
-                        #sn=re.findall(r'(Serial Number:(.*))')
                         if re.search(pgone,line,re.IGNORECASE):
                             write_log('the check hdd is go :SMART overall-health self-assessment test result: PASSED')
                             panduan=True
@@ -177,7 +176,7 @@ class BlackListCheck(Item):
 
 
                     if panduan == True:
-                        write_log(sn)
+                        write_log(sn[1])
                         RS=re.findall(r'(Reallocated_Sector_Ct(.*))',yp_info[1])
                         for i in RS:
                             x=i[0].split()[-1]
@@ -186,7 +185,7 @@ class BlackListCheck(Item):
                             if x <=10:
                                 write_log('Reallocated_Sector_Ct is OK')
                             else:
-                                write_log(sn)
+                                write_log(sn[1])
                                 write_log("Reallocated_Sector_Ct is fail")
                                 self.results['hdd_log'] = 'fail'
                                 # result_fail(self)
@@ -200,7 +199,7 @@ class BlackListCheck(Item):
                             if x == 0:
                                 write_log("Current_Pending_Sector is OK")
                             else:
-                                write_log(sn)
+                                write_log(sn[1])
                                 write_log("Current_Pending_Sector is fail")
                                 self.results['hdd_log'] = 'fail'
                                 # result_fail(self)
@@ -208,7 +207,7 @@ class BlackListCheck(Item):
                         #UC=re.findall(r'(UDMA_CRC_Error_Count(.*))',yp_info[1])
                         #print(UC)
                     else:
-                        write_log(sn)
+                        write_log(sn[1])
                         write_log("SMART overall-health self-assessment test result is fail")
                         self.results['hdd_log'] = 'fail'
                         # result_fail(self)

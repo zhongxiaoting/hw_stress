@@ -1,8 +1,11 @@
 #$/bin/bash
 #get EDI:SLOT
-chmod +x /tools/storcli64
+
+cd /home/hw_stress/tools
+chmod +x storcli64
+
 edislot=""
-edinum=$(./tools/storcli64 /call show|grep SATA|cut -d ' '  -f1)
+edinum=$(./storcli64 /call show|grep SATA|cut -d ' '  -f1)
 for i in $edinum
 do
 	if [ -z "$edislot" ];then
