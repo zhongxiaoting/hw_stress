@@ -121,6 +121,7 @@ Stress --BMC
 
 
 # 网卡压力测试  --LAN
+第一种方法：
     # 1、筛选出要测试的网口
       ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-1]$"
     # 2、是否网口有连接网线
@@ -144,6 +145,31 @@ Stress --BMC
           查网速：ethtool enp134s0f0  如10G
           # 每隔一小时查一次
                查结果的平均传输速率：cat /proc/net/pktgen/enp134s0f0   如10G - 1G为正常
+
+
+第二种方法：
+        timeout 5 ./pktgentest.sh -i enp135s0f0 -m 68:91:d0:68:5f:7b -d 172.16.10.10 -s 9000 -t 12 -f 0 -n 0 &
+		    timeout 5 ./pk.sh -i enp135s0f1 -m 68:91:d0:68:5f:7a -d 172.16.10.11 -s 9000 -t 12 -f 12 -n 0 &
+
+		# 1、循环获取到网口
+		  enp = ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-1]$"
+		# 2、获取网口对应的上一个mac地址
+      ifconfig $enp |grep -Eo '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}'
+    # 3、目标地址，随意
+      172.16.101.10
+    # 4、获取一个网口对应的线程数
+        4.1 总共有多少个线程
+          threadnum = cat /proc/cpuinfo | grep -c processor
+        4.2 总共有多少个网口
+          enpnum = ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-1]$" | wc -l
+        4.2 平均一个网口分配多少个线程
+          enpthread = int(threadnum / enpnum)
+
+
+
+{'enp216s0f1': 'b8:ce:f6:fa:e4:ee', 'enp216s0f0': 'b8:ce:f6:fa:e4:ef', 'enp135s0f1': '68:91:d0:68:5f:7a', 'enp135s0f0': '68:91:d0:68:5f:7b', 'enp134s0f0': 'b8:ce:f6:fa:e6:4b', 'enp134s0f1': 'b8:ce:f6:fa:e6:4a'}
+
+
 
 
 

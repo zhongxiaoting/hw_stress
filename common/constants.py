@@ -34,8 +34,33 @@ OPERATOR_MINI_NUMBER = 4
 # define run time
 RUN_SECONDS = 86400
 
+# loss Disk check wait time
+WAIT_LOSS_DISK_TIME = 600
+
 # define loss disk run interval time
 LOSS_DISK_TIME = 3600
+
+# wait network run time
+WAIT_LAN_TIME = 60
+
+# wait network speed check time
+WAIT_LAN_SPEED_TIME = 30
+
+# wait check stress log time
+CHECK_STRESS_TIME = 600
+
+# define run file name
+CPU_STRESS = "CPU_STRESS"
+
+MEM_STRESS = "MEM_STRESS"
+
+HDD_STRESS = "HDD_STRESS"
+
+LAN_STRESS = "LAN_STRESS"
+
+LOSS_DISK = "LOSS_DISK"
+
+STRESS_ALL = "STRESS_ALL"
 
 ###############
 # 3. network

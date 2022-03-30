@@ -25,6 +25,7 @@ done
 for i in `ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-1]$"`
 do
 #   echo $mac
+    ifconfig $i mtu 9000
     speed=$(ethtool $i |grep "Speed: ")
     echo "->>> $i:$speed"
     speed=$(echo $speed)
@@ -34,11 +35,11 @@ do
             echo add_device $i > /proc/net/pktgen/kpktgend_$count
             echo count 10000 > /proc/net/pktgen/$i
             echo clone_skb 1000 >/proc/net/pktgen/$i
-            echo pkt_size 1500 >/proc/net/pktgen/$i
+            echo pkt_size 9000 >/proc/net/pktgen/$i
 
             echo dst 10.11.11.$ip >/proc/net/pktgen/$i
             b=$(($count%2))
-            if [ $b = 0 ];then
+            if [ $b -eq 0 ];then
               echo dst_mac ${array_mac[$(($j+1))]} >/proc/net/pktgen/$i
             else
               echo dst_mac ${array_mac[$(($j-1))]} >/proc/net/pktgen/$i

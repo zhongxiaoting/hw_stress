@@ -5,6 +5,7 @@ import requests as r
 from utils import log as l,handle as h
 from common import constants as c
 import controller as ctrl
+import commands
 
 class Item(object):
 
@@ -34,11 +35,11 @@ class Item(object):
 
     # test pass
     def result_pass(self):
-        l.title_item(self.info['name']+ ' PASS ')
+        l.title_item('PASS ')
         
     # test fail
     def result_fail(self):
-        l.fail_msg(self.info['name']+ ' Fail')
+        l.fail_msg('Fail')
         ctrl.Controller.pasue()
         return 
 
@@ -51,7 +52,18 @@ class Item(object):
 
     # stress fail
     def stress_fail(self):
-        stress = h.run_cmd("pkill python && pkill -9 stress && pkill -9 fio && pkill -9 memtester && pkill -9 lan_while.sh")
+        l.fail_msg("Test Fail, Please check progress!")
+        h.run_cmd("pkill -9 python")
+        h.run_cmd("pkill -9 stress")
+        h.run_cmd("pkill -9 memtester")
+        h.run_cmd("pkill -9 fio")
+        h.run_cmd("pkill -9 lan_while.sh")
+        sys.exit(1)
+        return
+
+    # formal quit
+    def lan_formal_quit(self):
+        self.run_cmd("pkill -9 lan_while.sh")
         sys.exit(0)
         return
 

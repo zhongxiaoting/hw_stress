@@ -3,9 +3,9 @@ core_num=$(cat /proc/cpuinfo | grep -c processor)-5
 core_num=`expr "$core_num" - 5`
 
 cd /home/hw_stress/tools
-tar -zxvf /home/hw_stress/tools/stress-1.0.4.tar.gz
-tar -zxvf /home/hw_stress/tools/memtester-4.5.1.tar.gz
-tar -zxvf /home/hw_stress/tools/fio-3.20.tar.gz
+#tar -zxvf /home/hw_stress/tools/stress-1.0.4.tar.gz
+#tar -zxvf /home/hw_stress/tools/memtester-4.5.1.tar.gz
+#tar -zxvf /home/hw_stress/tools/fio-3.20.tar.gz
 
 
 
@@ -47,45 +47,45 @@ fi
 
 
 
-if [ -x "$(command -v stress)" ]; then
-  echo "stress is already installed"
-else
-  cd /home/hw_stress/tools/stress-1.0.4
-  ./configure
-  make -j $core_num
-  make install
-  if [ -x "$(command -v stress)" ]; then
-    echo "stress install success"
-  else
-    echo "stress install fail"
-  fi
-fi
-
-
-if [ -x "$(command -v memtester)" ]; then
-  echo "memtester is already installed"
-else
-  cd /home/hw_stress/tools/memtester-4.5.1
-  make -j $core_num
-  make install
-  if [ -x "$(command -v memtester)" ]; then
-    echo "memtester install success"
-  else
-    echo "memtester install fail"
-  fi
-fi
-
-
-if [ -x "$(command -v fio)" ]; then
-  echo "fio is already installed"
-else
-  cd /home/hw_stress/tools/fio-3.20
-  make -j $core_num
-  make install
-  if [ -x "$(command -v fio)" ]; then
-    echo "fio install success"
-  else
-    echo "fio install fail"
-  fi
-fi
+#if [ -x "$(command -v stress)" ]; then
+#  echo "stress is already installed"
+#else
+#  cd /home/hw_stress/tools/stress-1.0.4
+#  ./configure
+#  make -j $core_num
+#  make install
+#  if [ -x "$(command -v stress)" ]; then
+#    echo "stress install success"
+#  else
+#    echo "stress install fail"
+#  fi
+#fi
+#
+#
+#if [ -x "$(command -v memtester)" ]; then
+#  echo "memtester is already installed"
+#else
+#  cd /home/hw_stress/tools/memtester-4.5.1
+#  make -j $core_num
+#  make install
+#  if [ -x "$(command -v memtester)" ]; then
+#    echo "memtester install success"
+#  else
+#    echo "memtester install fail"
+#  fi
+#fi
+#
+#
+#if [ -x "$(command -v fio)" ]; then
+#  echo "fio is already installed"
+#else
+#  cd /home/hw_stress/tools/fio-3.20
+#  make -j $core_num
+#  make install
+#  if [ -x "$(command -v fio)" ]; then
+#    echo "fio install success"
+#  else
+#    echo "fio install fail"
+#  fi
+#fi
 

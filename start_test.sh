@@ -1,3 +1,9 @@
+#!/bin/bash
+killall memtester >> /dev/null 2>&1
+killall fio >> /dev/null 2>&1
+killall lan_while.sh >> /dev/null 2>&1
+killall stress >> /dev/null 2>&1
+pkill -9 python  >> /dev/null 2>&1
 if [ $# == 0 ]; then
     python ./launch.py
 elif [ $# == 1 ]; then

@@ -27,7 +27,7 @@ class HDD_STRESS(Item):
         write_log0(all_data_disks)
         for data_disk in all_data_disks:
             data_disk_t = threading.Thread(target=self.random_read_write, args=(data_disk,str(i)))
-            # data_disk_t.setDaemon(True)
+            data_disk_t.setDaemon(True)
             data_disk_t.start()
             i += 1
         return

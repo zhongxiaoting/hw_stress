@@ -38,7 +38,7 @@ def update_controller_json(cfg):
 def run_cmd(cmd, w=False):
     statusoutput = commands.getstatusoutput(cmd)
     # l.write_debug_log("[command: " + cmd + "]" + '\n')
-    # l.log("[command: " + cmd + "]", 0 ,w)
+    # l.log("[command: " + cmd + "]", 0 ,w  )
     if statusoutput[0] != 0:
         # l.fail_msg("[command: " + cmd + "]"+ "Fail!")
         # return None

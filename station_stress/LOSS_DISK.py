@@ -16,7 +16,7 @@ class LOSS_DISK(Item):
     # 检查掉盘测试
     def run_item(self):
         i = 1
-        sleep(300)
+        sleep(c.WAIT_LOSS_DISK_TIME)
         disks = self.get_disk()
         write_log("==============  Loss Disk Check Begin " + get_local_time_string() + " =================")
         while True:
@@ -33,6 +33,8 @@ class LOSS_DISK(Item):
                 write_log(loss_or_not_disk)
                 if disks == loss_or_not_disk:
                     write_log("->>> Not Loss Disks! ")
+                    write_log("=========== NO_" + str(i) + " Loss Disk Check End " + get_local_time_string() + "  ===========")
+                    i += 1
                 else:
                     write_log("->>>ERROR, Disks Loss! ")
                     l.fail_msg("Disk Loss Check have ERROR, Please check progress!")
@@ -42,8 +44,9 @@ class LOSS_DISK(Item):
             elif stress is None and memtester is None and fio is None and lan is None:
                 write_log("->> stress、memtester 、fio and lan stress check are finished!")
                 break
-            write_log("=========== NO_" + str(i) + " Loss Disk Check End " + get_local_time_string() + "  ===========")
-            i += 1
+            else:
+                pass
+
             sleep(c.LOSS_DISK_TIME)
         return
 
@@ -74,7 +77,7 @@ def fio_run():
 
 
 def lan_run():
-    lan = h.run_cmd("pidof lan_while.sh")
+    lan = h.run_cmd("pgrep lan_while.sh")
     if "Fail" in lan:
         return None
     return lan

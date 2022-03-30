@@ -15,7 +15,7 @@ def scan_sn():
             print("SN number too short, Please retry!")
             continue
         else:
-            print("Scan sn is: " + sn, 0 ,True)
+            print("Scan sn is: " + sn)
             break
     return sn
 

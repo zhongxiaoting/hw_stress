@@ -43,7 +43,7 @@ def msg(s):
 
 # write log
 def write_log(s):
-    with open(c.MCE_ECC_LOG, 'a+') as (f):
+    with open(c.FULL_LOG_PATH, 'a+') as (f):
         f.write(str(s) + '\n')
         f.flush()
         os.fsync(f)
@@ -80,9 +80,9 @@ def local_time():
 
 # define station title
 def title_station(title):
-    log("===================================", 1)
-    log(title + ' ' + t.local_time(), 1)
-    log("===================================", 1)
+    print "==================================="
+    print title + ' ' + t.local_time()
+    print "==================================="
 
 
 # define station title pass
@@ -94,7 +94,7 @@ def title_station_pass(title):
 
 # define item title
 def title_item(title):
-    log("======== " + title + ' ' + t.local_time() + "========\n", 1)
+    print "======== " + title + ' ' + t.local_time() + "========\n"
 
 
 # # backup log

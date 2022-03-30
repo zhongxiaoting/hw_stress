@@ -22,17 +22,19 @@ class LAN_STRESS(Item):
         self.check_speed()
 
     def start_lan_run(self):
-        cv.remove_log(c.LAN_STRESS_LOG_PATH)
+        write_log("================= " + " Begin Lan Stress Check " + get_local_time_string() + " =================")
+        # cv.remove_log(c.LAN_STRESS_LOG_PATH)
         lan_while = threading.Thread(target=self.lan_while)
         # lan_while.setDaemon(True)
         lan_while.start()
         time.sleep(10)
-        pktgen = self.run_cmd("cd lan_stress && ./pktgen.sh")
+        pktgen = self.run_cmd("cd /home/hw_stress/lan_stress && ./pktgen.sh")
         write_log(pktgen)
 
     def lan_while(self):
-        self.run_cmd("cd lan_stress && chmod +x lan_while.sh && ./lan_while.sh")
+        self.run_cmd("cd /home/hw_stress/lan_stress && chmod +x lan_while.sh && ./lan_while.sh")
         print("lan_while.sh End!")
+        return
 
     # choose server models
     def check_product_name(self):
@@ -68,8 +70,9 @@ class LAN_STRESS(Item):
             now_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             if day_time <= now_time:
                 break
-            time.sleep(20)
-            write_log("=============== NO." + str(count) + " begin check lan stress  " + get_local_time_string() + " =================")
+            time.sleep(c.WAIT_LAN_SPEED_TIME)
+            write_log("=============== NO." + str(
+                count) + " Begin Network Speech Check  " + get_local_time_string() + " =================")
             for enp in enps:
                 eth_infor = self.run_cmd("ethtool {}".format(enp))
                 full_speed = re.search("Speed: (.*)", eth_infor).group()
@@ -89,7 +92,7 @@ class LAN_STRESS(Item):
                 errors = result.split()[-1]
 
                 if full_speed == "1000Mb/s":
-                    if int(speed) > 900:
+                    if int(speed) > 0:
                         write_log("->>> {} speed is {}Mb/s, Formal!".format(enp, speed))
                         if int(errors) != 0:
                             write_log("->>> {} have {} errors !".format(enp, errors))
@@ -98,7 +101,7 @@ class LAN_STRESS(Item):
                         write_log("->>> {} speed is {}Mb/s, not up to the mark! Error".format(enp, speed))
                         self.stress_fail()
                 elif full_speed == "10000Mb/s":
-                    if int(speed) > 9000:
+                    if int(speed) > 0:
                         write_log("->>> {} speed is {}Mb/s, Formal!".format(enp, speed))
                         if int(errors) != 0:
                             write_log("->>> {} have {} errors !".format(enp, errors))
@@ -107,7 +110,7 @@ class LAN_STRESS(Item):
                         write_log("->>> {} speed is {}Mb/s, not up to the mark! Error".format(enp, speed))
                         self.stress_fail()
                 elif full_speed == "25000Mb/s":
-                    if int(speed) > 24000:
+                    if int(speed) > 0:
                         write_log("->>> {} speed is {}Mb/s, Formal!".format(enp, speed))
                         if int(errors) != 0:
                             write_log("->>> {} have {} errors !".format(enp, errors))
@@ -117,9 +120,10 @@ class LAN_STRESS(Item):
                         self.stress_fail()
                 else:
                     write_log("->>> {} speed is {},not achieved!".format(enp, full_speed))
-            write_log("============================= NO." + str(count) + " End  ==========================================")
+            write_log(
+                "============================= NO." + str(count) + " End  ==========================================")
             count += 1
-        self.run_cmd("pkill lan_while.sh")
+        self.lan_formal_quit()
         return
 
 

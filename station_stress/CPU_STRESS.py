@@ -1,6 +1,7 @@
 # coding=utf-8
 import os
 import sys
+import threading
 import time
 
 from main.item import Item
@@ -16,36 +17,45 @@ class CPU_STRESS(Item):
         self.info = info
 
     def run_item(self):
+        args = sys.argv
+        if len(args) == 3:
+            if int(args[2]) == 1:
+                time.sleep(c.WAIT_LAN_TIME + 20)
+                for cnt in range(0, 5):
+                    time.sleep(30)
+                    ret = self.run_cmd("pidof lan_while.sh")
+                    if ret:
+                        break
+                    else:
+                        print "waiting lan network run..."
         self.stress_check()
 
-    def getCurrentcpuuse(self):
-        out = self.run_cmd("cat /proc/stat|head -n 1")
-        l = out.split()
-        user = int(l[1])
-        nice = int(l[2])
-        sys = int(l[3])
-        idle = int(l[4])
-        currentcpuuse = (user + sys) / (user + nice + sys + idle)
-        return currentcpuuse
-
-    def get_thread_num(self):
-        core_num = self.run_cmd("cat /proc/cpuinfo | grep -c processor")
-        freecpu = 1 - self.getCurrentcpuuse()
-        threadnum = int(freecpu * (int(core_num) - 1))
-        return threadnum
+    def top_log(self):
+        maxTimes = c.RUN_SECONDS / 10
+        self.run_cmd("setsid timeout {} top -d 10 -n {} -b -i >> {}".format(c.RUN_SECONDS, maxTimes, c.STRESS_LOG))
 
     @decorator.item_test
     def stress_check(self):
-        threadnum = self.get_thread_num()
-        cv.remove_log(c.CPU_STRESS_LOG_PATH)
-        shell = "stress -c {} -t {} ".format(threadnum, c.RUN_SECONDS)
+        thread_num = cv.get_thread_num()
+        # cv.remove_log(c.CPU_STRESS_LOG_PATH)
+        shell = "stress -c {} -t {} ".format(thread_num, c.RUN_SECONDS)
         # print(cpu_infor)
         write_log("=============  CPU Stress Check Begin  " + get_local_time_string() + " ================")
         write_log("The Command Line ->>> " + shell + "\n")
-        cpu_infor = self.run_cmd(shell)
-        write_log(cpu_infor)
+        cpu_infor = os.popen(shell)
+        t = threading.Thread(target=self.top_log)
+        t.setDaemon(True)
+        t.start()
+        out = cpu_infor.read()
+        write_log(out)
         write_log("==============  CPU Stress Check End  " + get_local_time_string() + " =================")
-        return cpu_infor
+        # check errors
+        if "successful run completed" in out:
+            write_log("->>>\033[32m CPU Check PASS \033[0m ")
+        else:
+            write_log("->>>\033[31m CPU Check Fail \033[0m")
+            self.stress_fail()
+        return out
 
 
 def write_log(s):

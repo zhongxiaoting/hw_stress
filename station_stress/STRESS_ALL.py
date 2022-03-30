@@ -7,8 +7,9 @@ from CPU_STRESS import CPU_STRESS
 from MEM_STRESS import MEM_STRESS
 from HDD_STRESS import HDD_STRESS
 from LOSS_DISK import LOSS_DISK
-from check_stress_log import ALL_STRESS_LOG
 from LAN_STRESS import LAN_STRESS
+from check_stress_log import ALL_STRESS_LOG
+from common import constants as c
 from BlackListCheck import BlackListCheck
 import MCE_ECC
 sys.path.append("..")
@@ -33,7 +34,7 @@ class STRESS_ALL(Item):
 
     def all_stress_check(self):
         items_run = []
-        items = ['CPU_STRESS', 'MEM_STRESS', 'HDD_STRESS', 'LAN_STRESS', 'LOSS_DISK']
+        items = [c.HDD_STRESS, c.CPU_STRESS, c.MEM_STRESS, c.LAN_STRESS, c.LOSS_DISK]
         for item in items:
             items_run.append(self.get_item_by_name(item))
         for stress_item in items_run:
