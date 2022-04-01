@@ -1,8 +1,9 @@
 import json, sys
 import controller
+from common import constants as c
 
 sys.path.append("..")
-from station_func import HOST_CFG_SET, INFO_PROGRAMMING, RTC_CHECK, CPU_CHECK, DISK_CHECK, VENEER_HEALTH_CHECK, \
+from station_func import HOST_CFG_SET, INFO_PROGRAMMING, RTC_CHECK, NewCpuCheck, NewMemCheck, VENEER_HEALTH_CHECK, NewHddCheck, NewNetworkCheck, AllContrast, \
     MAC_ADDRESS_CHECK
 from station_stress import CPU_STRESS, MEM_STRESS
 from station_stress import HDD_STRESS, STRESS_ALL, LAN_STRESS, MCE_ECC
@@ -18,14 +19,20 @@ def do(station_name, item):
             HOST_CFG_SET.HOST_CFG_SET(item).run_item()
         if name == 'INFO_PROGRAMMING':
             INFO_PROGRAMMING.INFO_PROGRAMMING(item).run_item()
-        if name == 'CPU_CHECK':
-            CPU_CHECK.CPU_CHECK(item).run_item()
-        if name == 'DISK_CHECK':
-            DISK_CHECK.DISK_CHECK(item).run_item()
+        if name == 'NewCpuCheck':
+            NewCpuCheck.Cpu_Check(item).run_item()
+        if name == 'NewMemCheck':
+            NewMemCheck.Mem_Check(item).run_item()
         if name == 'VENEER_HEALTH_CHECK':
             VENEER_HEALTH_CHECK.VENEER_HEALTH_CHECK(item).run_item()
         if name == 'MAC_ADDRESS_CHECK':
             MAC_ADDRESS_CHECK.MAC_ADDRESS_CHECK(item).run_item()
+        if name == 'NewHddCheck':
+            NewHddCheck.Hdd_Check(item).run_item()
+        if name == 'NewNetworkCheck':
+            NewNetworkCheck.Network_Check(item).run_item()
+        if name == 'AllContrast':
+            AllContrast.cmpFile('/home/hw_stress/compare/peizhibijiao.log', c.Check_hw_info ).run_item()
 
     elif station_name == 'STATION_STRESS':
         name = item['name']
