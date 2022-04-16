@@ -1,0 +1,217 @@
+------------ The cpu physical number have 2 ------------
+------------ cpu info come ------------
+	Socket Designation: CPU0
+	Version: Intel(R) Xeon(R) Gold 6240 CPU @ 2.60GHz
+	Current Speed: 2600 MHz
+       The cpu core number is cpu cores	: 20
+	Thread Count: 36
+------------ The cpu is ok next is coming ------------
+	Socket Designation: CPU1
+	Version: Intel(R) Xeon(R) Gold 6240 CPU @ 2.60GHz
+	Current Speed: 2600 MHz
+       The cpu core number is cpu cores	: 18
+	Thread Count: 36
+------------ The cpu is ok next is coming ------------
+------------ The memory physical number have 16 ------------
+------------ mem info come ------------
+	Locator: CPU0_DIMM_1
+	Bank Locator: P0_Channel0_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F507BD
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU0_DIMM_2
+	Bank Locator: P0_Channel0_Dimm1
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F507BF
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU0_DIMM_3
+	Bank Locator: P0_Channel1_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F5082B
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU0_DIMM_4
+	Bank Locator: P0_Channel2_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F50782
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU0_DIMM_5
+	Bank Locator: P0_Channel3_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F507CB
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU0_DIMM_6
+	Bank Locator: P0_Channel3_Dimm1
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F507D3
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU0_DIMM_7
+	Bank Locator: P0_Channel4_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F50728
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU0_DIMM_8
+	Bank Locator: P0_Channel5_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F50802
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU1_DIMM_1
+	Bank Locator: P1_Channel0_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F5077B
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU1_DIMM_2
+	Bank Locator: P1_Channel0_Dimm1
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F507D8
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU1_DIMM_3
+	Bank Locator: P1_Channel1_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F5078A
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU1_DIMM_4
+	Bank Locator: P1_Channel2_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F50789
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU1_DIMM_5
+	Bank Locator: P1_Channel3_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F507D5
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU1_DIMM_6
+	Bank Locator: P1_Channel3_Dimm1
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F507CA
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU1_DIMM_7
+	Bank Locator: P1_Channel4_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F507DC
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+	Locator: CPU1_DIMM_8
+	Bank Locator: P1_Channel5_Dimm0
+	Manufacturer: Hynix
+	Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
+	Serial Number: 94F50809
+	Part Number: HMA84GR7DJR4N-XN    
+------------ The memory is ok next is coming ------------
+------------ This type server is no raid ------------
+The hdd number count is 5
+------------ This hdd is sda ------------
+Device Model:     SAMSUNG MZ7LH480HAHQ-00005
+Serial Number:    S45PNA2MB38301
+User Capacity:    480,103,981,056 bytes [480 GB]
+------------ This hdd is ok next coming ------------
+------------ This hdd is sdb ------------
+Device Model:     SAMSUNG MZ7LH480HAHQ-00005
+Serial Number:    S45PNA0N263980
+User Capacity:    480,103,981,056 bytes [480 GB]
+------------ This hdd is ok next coming ------------
+------------ This hdd is sdc ------------
+Device Model:     SAMSUNG MZ7LH480HAHQ-00005
+Serial Number:    S45PNA0N196321
+User Capacity:    480,103,981,056 bytes [480 GB]
+------------ This hdd is ok next coming ------------
+------------ This hdd is sdd ------------
+
+Transport protocol:   SAS (SPL-3)
+Vendor:               SEAGATE
+Serial number:        WFK7QQXR0000K041AKY7
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+------------ This hdd is ok next coming ------------
+------------ This hdd is sde ------------
+
+Transport protocol:   SAS (SPL-3)
+Vendor:               SEAGATE
+Serial number:        WFK8H7F20000K11486XW
+User Capacity:        1,200,243,695,616 bytes [1.20 TB]
+------------ This hdd is ok next coming ------------
+Can not find any nvme.
+------------ The network number is 5 ------------
+       logical name: enp62s0f2
+Ethernet Connection X722 for 1GbE
+Intel Corporation
+1Gbit/s
+------------ next one -------------
+       logical name: enp62s0f3
+Ethernet Connection X722 for 1GbE
+Intel Corporation
+------------ next one -------------
+       logical name: enp134s0f0
+MT27710 Family [ConnectX-4 Lx]
+Mellanox Technologies
+10Gbit/s
+------------ next one -------------
+       logical name: enp134s0f1
+MT27710 Family [ConnectX-4 Lx]
+Mellanox Technologies
+10Gbit/s
+------------ next one -------------
+       logical name: enp135s0f0
+I350 Gigabit Network Connection
+Intel Corporation
+1Gbit/s
+------------ next one -------------
+       logical name: enp135s0f1
+I350 Gigabit Network Connection
+Intel Corporation
+1Gbit/s
+------------ next one -------------
+       logical name: enp216s0f0
+MT27710 Family [ConnectX-4 Lx]
+Mellanox Technologies
+10Gbit/s
+------------ next one -------------
+       logical name: enp216s0f1
+MT27710 Family [ConnectX-4 Lx]
+Mellanox Technologies
+10Gbit/s
+------------ next one -------------
+------------ The pci number is 333 ------------

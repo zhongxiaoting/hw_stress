@@ -122,7 +122,7 @@ class BlackListCheck(Item):
             yp_info = []
             # nvme_name=[]
 
-            cmd = '/opt/MegaRAID/MegaCli/MegaCli64 -LdPdInfo -aALL | grep -i "Device Id:" |grep -Ev "Enclosure"'
+            cmd = '/home/hw_stress/tools/MegaCli64 -LdPdInfo -aALL | grep -i "Device Id:" |grep -Ev "Enclosure"'
             hdd_number = self.run_cmd(cmd).split('\n')
 
             cmd = 'ls /sys/block |grep -Ev "loop*|ram*|nvme|dm"'
@@ -335,7 +335,7 @@ class BlackListCheck(Item):
         MCE_ECC(Item).mem_ecc_check()
         # class MCE_ECC(Item):
 
-    def check_mcelog(self):
+    def check_mcelog1(self):
         error_log = []
         match_keys = "above temperature, being removed, CATEER, critical, Corrected, scrub error, degraded, dead device, " \
                      "Device offlined, device_unblocked, error, err,  failed, failure, fault, HDD block removing handle, " \
@@ -371,6 +371,30 @@ class BlackListCheck(Item):
             self.result_fail()
         else:
             write_log("------------ check_mcelog pass ------------")
+            
+
+    def check_mcelog(self):
+        cmd = "cat /var/log/mcelog"
+        mce_log = commands.getstatusoutput(cmd)
+        if mce_log[0] == 0:
+            if len(mce_log[1]) > 0:
+                if "mcelog: mcelog server already running" in mce_log[1]:
+                    write_log("------------ check_mcelog pass ------------")
+                else:
+                    write_log("------------ The mce log messages error ------------")
+                    self.report_info('F')
+                    self.on_fail("mce log error")
+                    self.results['mce_log'] = 'fail'
+                    self.result_fail()
+            else:
+                write_log("------------ check_mcelog pass ------------")
+        else:
+            write_log("get mce log fail: %s" %mce_log[1])
+            self.report_info('F')
+            self.on_fail("get mce log messages error")
+            self.results['mce_log'] = 'fail'
+            self.result_fail()  
+                
 
     def check_PCIE_errors(self):
         dev_AER = {}

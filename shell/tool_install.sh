@@ -10,7 +10,7 @@ chmod +x fio MegaCli64 memtester storcli64 stress
 #tar -zxvf /home/hw_stress/tools/fio-3.20.tar.gz
 
 
-
+rpm -ivf nvme-cli-1.8.1-3.el7.x86_64.rpm
 rpm -ivf net-tools-2.0-0.25.20131004git.el7.x86_64.rpm
 rpm -ivf net-snmp-libs-5.7.2-49.el7_9.1.x86_64.rpm
 rpm -ivf OpenIPMI-modalias-2.0.27-1.el7.x86_64.rpm OpenIPMI-libs-2.0.27-1.el7.x86_64.rpm OpenIPMI-2.0.27-1.el7.x86_64.rpm

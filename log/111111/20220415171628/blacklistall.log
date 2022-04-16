@@ -1,0 +1,80 @@
+the check hdd is go :SMART overall-health self-assessment test result: PASSED
+Serial Number:    S45PNC0R339996
+Reallocated_Sector_Ct is OK
+End-to-End_Error is OK
+Power_On_Hours is OK
+Current_Pending_Sector is OK
+the check hdd is go :SMART overall-health self-assessment test result: PASSED
+Serial Number:    S45PNC0R228012
+Reallocated_Sector_Ct is OK
+End-to-End_Error is OK
+Power_On_Hours is OK
+Current_Pending_Sector is OK
+the check hdd is go :SMART overall-health self-assessment test result: PASSED
+Serial Number:    S45PNC0R254633
+Reallocated_Sector_Ct is OK
+End-to-End_Error is OK
+Power_On_Hours is OK
+Current_Pending_Sector is OK
+this hdd is SAS:sdd
+the check SAS hdd is go :SMART Health Status: OK
+Serial number:        WFK7XBH50000K0443Q36
+Elements in grown defect list is OK
+this hdd is SAS:sde
+the check SAS hdd is go :SMART Health Status: OK
+Serial number:        WFK6NG400000K028CKM5
+Elements in grown defect list is OK
+------------------------------------------------
+cannot find the nvme,please check about.
+------------------------------------------------
+------------ check_mcelog pass ------------
+------------------------------------------------
+enp134s0f0 network port Bit number: 0
+enp134s0f1 network port Bit number: 0
+enp216s0f0 network port Bit number: 0
+enp216s0f1 network port Bit number: 0
+------------------------------------------------
+check 00:1c.1 AER start
+check 00:1c.1 AER end
+check 02:00.0 AER start
+check 02:00.0 AER end
+check 17:00.0 AER start
+check 17:00.0 AER end
+check 18:00.0 AER start
+check 18:00.0 AER end
+check 18:00.1 AER start
+check 18:00.1 AER end
+check 3a:00.0 AER start
+check 3a:00.0 AER end
+check 3a:02.0 AER start
+check 3a:02.0 AER end
+check 3b:00.0 AER start
+check 3b:00.0 AER end
+check 3c:00.0 AER start
+check 3c:00.0 AER end
+check 3d:03.0 AER start
+check 3d:03.0 AER end
+check 3e:00.0 AER start
+check 3e:00.0 AER end
+check 3e:00.2 AER start
+check 3e:00.2 AER end
+check 3e:00.3 AER start
+check 3e:00.3 AER end
+check 85:00.0 AER start
+check 85:00.0 AER end
+check 86:00.0 AER start
+check 86:00.0 AER end
+check 86:00.1 AER start
+check 86:00.1 AER end
+check d7:02.0 AER start
+check d7:02.0 AER end
+check d8:00.0 AER start
+check d8:00.0 AER end
+check d8:00.1 AER start
+check d8:00.1 AER end
+check PCIE AER Bit normal
+------------------------------------------------
+------------------------------------------------
+-----------end----------------------------------
+test pass!
+ALL GOOD

@@ -1,0 +1,95 @@
+=================  Begin Lan Stress Check 2022-04-15 17:16:31 =================
+enp134s0f0: 08:c0:eb:52:51:e8
+enp134s0f1: 08:c0:eb:52:51:e9
+enp216s0f0: 08:c0:eb:52:55:58
+enp216s0f1: 08:c0:eb:52:55:59
+enp24s0f0: d8:5e:d3:49:df:fa
+enp24s0f1: d8:5e:d3:49:df:fb
+enp62s0f2: 2c:f0:5d:f1:14:ff
+enp62s0f3: 2c:f0:5d:f1:15:00
+->>> enp134s0f0:	Speed: 10000Mb/s
+->>> enp134s0f1:	Speed: 10000Mb/s
+->>> enp216s0f0:	Speed: 10000Mb/s
+->>> enp216s0f1:	Speed: 10000Mb/s
+->>> enp24s0f0:	Speed: 1000Mb/s
+->>> enp24s0f1:	Speed: 1000Mb/s
+->>> enp62s0f2:	Speed: 1000Mb/s
+->>> enp62s0f3:	Speed: 1000Mb/s
+->>> enp134s0f0 is link! Formal 
+->>> enp134s0f1 is link! Formal 
+->>> enp216s0f0 is link! Formal 
+->>> enp216s0f1 is link! Formal 
+->>> enp24s0f0 is link! Formal 
+->>> enp24s0f1 is link! Formal 
+->>> enp62s0f2 is link! Formal 
+->>> enp62s0f3 is link! Formal 
+=============== NO.1 Begin Network Speech Check  2022-04-15 17:17:14 =================
+->>> enp134s0f0 speed is 9975Mb/s, Formal!
+->>> enp134s0f1 speed is 9970Mb/s, Formal!
+->>> enp216s0f0 speed is 9976Mb/s, Formal!
+->>> enp216s0f1 speed is 9968Mb/s, Formal!
+->>> enp24s0f0 speed is 997Mb/s, Formal!
+->>> enp24s0f1 speed is 997Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.1 End  ==========================================
+=============== NO.2 Begin Network Speech Check  2022-04-15 17:18:27 =================
+->>> enp134s0f0 speed is 9771Mb/s, Formal!
+->>> enp134s0f1 speed is 8007Mb/s, Formal!
+->>> enp216s0f0 speed is 8008Mb/s, Formal!
+->>> enp216s0f1 speed is 8741Mb/s, Formal!
+->>> enp24s0f0 speed is 986Mb/s, Formal!
+->>> enp24s0f1 speed is 958Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 983Mb/s, Formal!
+============================= NO.2 End  ==========================================
+=============== NO.3 Begin Network Speech Check  2022-04-15 17:19:22 =================
+->>> enp134s0f0 speed is 7128Mb/s, Formal!
+->>> enp134s0f1 speed is 8018Mb/s, Formal!
+->>> enp216s0f0 speed is 6261Mb/s, Formal!
+->>> enp216s0f1 speed is 8017Mb/s, Formal!
+->>> enp24s0f0 speed is 997Mb/s, Formal!
+->>> enp24s0f1 speed is 990Mb/s, Formal!
+->>> enp62s0f2 speed is 995Mb/s, Formal!
+->>> enp62s0f3 speed is 993Mb/s, Formal!
+============================= NO.3 End  ==========================================
+=============== NO.4 Begin Network Speech Check  2022-04-15 17:21:18 =================
+->>> enp134s0f0 speed is 7083Mb/s, Formal!
+->>> enp134s0f1 speed is 7074Mb/s, Formal!
+->>> enp216s0f0 speed is 6990Mb/s, Formal!
+->>> enp216s0f1 speed is 7208Mb/s, Formal!
+->>> enp24s0f0 speed is 987Mb/s, Formal!
+->>> enp24s0f1 speed is 995Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.4 End  ==========================================
+=============== NO.5 Begin Network Speech Check  2022-04-15 17:22:35 =================
+->>> enp134s0f0 speed is 8379Mb/s, Formal!
+->>> enp134s0f1 speed is 8553Mb/s, Formal!
+->>> enp216s0f0 speed is 8006Mb/s, Formal!
+->>> enp216s0f1 speed is 6605Mb/s, Formal!
+->>> enp24s0f0 speed is 988Mb/s, Formal!
+->>> enp24s0f1 speed is 959Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 994Mb/s, Formal!
+============================= NO.5 End  ==========================================
+=============== NO.6 Begin Network Speech Check  2022-04-15 17:23:49 =================
+->>> enp134s0f0 speed is 6741Mb/s, Formal!
+->>> enp134s0f1 speed is 8372Mb/s, Formal!
+->>> enp216s0f0 speed is 8018Mb/s, Formal!
+->>> enp216s0f1 speed is 6865Mb/s, Formal!
+->>> enp24s0f0 speed is 993Mb/s, Formal!
+->>> enp24s0f1 speed is 997Mb/s, Formal!
+->>> enp62s0f2 speed is 983Mb/s, Formal!
+->>> enp62s0f3 speed is 987Mb/s, Formal!
+============================= NO.6 End  ==========================================
+=============== NO.7 Begin Network Speech Check  2022-04-15 17:26:03 =================
+->>> enp134s0f0 speed is 6876Mb/s, Formal!
+->>> enp134s0f1 speed is 8180Mb/s, Formal!
+->>> enp216s0f0 speed is 6810Mb/s, Formal!
+->>> enp216s0f1 speed is 8002Mb/s, Formal!
+->>> enp24s0f0 speed is 970Mb/s, Formal!
+->>> enp24s0f1 speed is 966Mb/s, Formal!
+->>> enp62s0f2 speed is 980Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.7 End  ==========================================

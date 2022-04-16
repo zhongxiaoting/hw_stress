@@ -1,0 +1,2920 @@
+===============  STRESS_ALL 2022-04-15 16:03:51=======================
+=============  CPU Stress Check Begin  2022-04-15 14:03:21 ================
+The Command Line ->>> ./tools/stress -c 71 -t 7200 
+
+stress: info: [6474] dispatching hogs: 71 cpu, 0 io, 0 vm, 0 hdd
+stress: info: [6474] successful run completed in 7200s
+
+==============  CPU Stress Check End  2022-04-15 16:03:21 =================
+->>>[32m CPU Check PASS [0m 
+
+=============  MEM Stress Check Begin  2022-04-15 14:03:00 ================
+The Command Line ->>> timeout 7200 taskset -c 1 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 2 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 3 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 4 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 5 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 6 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 7 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 8 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 9 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 10 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 11 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 12 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 13 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 14 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 15 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 16 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 17 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 18 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 19 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 20 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 21 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 23 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 22 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 24 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 25 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 27 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 26 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 28 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 29 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 31 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 30 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 32 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 33 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 34 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 35 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 36 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 37 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 38 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 39 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 40 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 41 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 43 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 42 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 44 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 45 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 47 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 46 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 48 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 49 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 50 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 51 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 52 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 53 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 54 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 55 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 56 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 58 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 57 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 59 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 60 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 62 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 61 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 63 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 64 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 66 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 65 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 68 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 67 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 69 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 70 ./tools/memtester 5525 1
+
+
+->>NO 31 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 6 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 19 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 55 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 21 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 47 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 36 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 52 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 17 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 48 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 44 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 22 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 27 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 12 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 24 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 64 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 39 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 66 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 23 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 57 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 41 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 29 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 34 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 9 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 70 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 32 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 37 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 26 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 62 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 56 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 65 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 61 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 63 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 38 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 13 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 54 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 28 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 67 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 30 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 49 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 60 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 33 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 1 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 16 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 35 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 68 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 50 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 25 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 8 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 51 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 5 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 3 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 46 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 18 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 4 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 14 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 45 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 11 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 53 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 40 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 59 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 20 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 15 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 42 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 69 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 58 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 2 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 7 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 10 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 43 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+==============  MEM Stress Check End  2022-04-15 16:03:04 =================
+->>>[32m MEM Check PASS [0m 
+
+=========== Disks Read and Write Check  2022-04-15 14:01:30 ===============
+
+->>> No Raid
+->>> System Disk is : sda
+->>> Tatol Non-system Disks: 4
+->>> Non-system Disks is : 
+['/dev/sdb', '/dev/sdc', '/dev/sdd', '/dev/sde']
+========= Data Disk NO.0 Read And Write Begin  2022-04-15 14:01:30 ==========
+The Command Line ->>> ./tools/fio -filename=/dev/sdb -direct=1 -iodepth 1 -thread -rw=randrw -ioengine=psync -bs=16k -size=1G -numjobs=10 -runtime=7200 -group_reporting -time_based -name=mytest_0
+
+mytest_0: (g=0): rw=randrw, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=psync, iodepth=1
+...
+fio-3.20
+Starting 10 threads
+
+mytest_0: (groupid=0, jobs=10): err= 0: pid=5718: Fri Apr 15 16:01:31 2022
+  read: IOPS=13.2k, BW=206MiB/s (216MB/s)(1451GiB/7200001msec)
+    clat (usec): min=86, max=54537, avg=507.01, stdev=132.72
+     lat (usec): min=86, max=54537, avg=507.24, stdev=132.73
+    clat percentiles (usec):
+     |  1.00th=[  306],  5.00th=[  347], 10.00th=[  375], 20.00th=[  408],
+     | 30.00th=[  437], 40.00th=[  461], 50.00th=[  482], 60.00th=[  506],
+     | 70.00th=[  537], 80.00th=[  594], 90.00th=[  685], 95.00th=[  758],
+     | 99.00th=[  889], 99.50th=[  930], 99.90th=[ 1074], 99.95th=[ 1696],
+     | 99.99th=[ 2671]
+   bw (  KiB/s): min=144705, max=238016, per=100.00%, avg=211476.05, stdev=477.06, samples=143760
+   iops        : min= 9043, max=14876, avg=13215.66, stdev=29.85, samples=143760
+  write: IOPS=13.2k, BW=206MiB/s (216MB/s)(1451GiB/7200001msec); 0 zone resets
+    clat (usec): min=56, max=43932, avg=239.88, stdev=78.09
+     lat (usec): min=56, max=43934, avg=242.80, stdev=78.13
+    clat percentiles (usec):
+     |  1.00th=[   71],  5.00th=[  102], 10.00th=[  131], 20.00th=[  174],
+     | 30.00th=[  204], 40.00th=[  229], 50.00th=[  249], 60.00th=[  269],
+     | 70.00th=[  289], 80.00th=[  310], 90.00th=[  330], 95.00th=[  347],
+     | 99.00th=[  367], 99.50th=[  375], 99.90th=[  416], 99.95th=[  482],
+     | 99.99th=[  914]
+   bw (  KiB/s): min=143037, max=246832, per=100.00%, avg=211516.15, stdev=827.23, samples=143760
+   iops        : min= 8937, max=15427, avg=13218.16, stdev=51.75, samples=143760
+  lat (usec)   : 100=2.35%, 250=22.94%, 500=53.27%, 750=18.77%, 1000=2.58%
+  lat (msec)   : 2=0.08%, 4=0.02%, 10=0.01%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=2.30%, sys=4.92%, ctx=190228612, majf=0, minf=31631
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=95100441,95118388,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=206MiB/s (216MB/s), 206MiB/s-206MiB/s (216MB/s-216MB/s), io=1451GiB (1558GB), run=7200001-7200001msec
+  WRITE: bw=206MiB/s (216MB/s), 206MiB/s-206MiB/s (216MB/s-216MB/s), io=1451GiB (1558GB), run=7200001-7200001msec
+
+Disk stats (read/write):
+  sdb: ios=95099463/95117361, merge=0/0, ticks=46657731/21450295, in_queue=68274847, util=100.00%
+================== Data disk NO.0 End ====================
+
+
+========= Data Disk NO.1 Read And Write Begin  2022-04-15 14:01:30 ==========
+The Command Line ->>> ./tools/fio -filename=/dev/sdc -direct=1 -iodepth 1 -thread -rw=randrw -ioengine=psync -bs=16k -size=1G -numjobs=10 -runtime=7200 -group_reporting -time_based -name=mytest_1
+
+mytest_1: (g=0): rw=randrw, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=psync, iodepth=1
+...
+fio-3.20
+Starting 10 threads
+
+mytest_1: (groupid=0, jobs=10): err= 0: pid=5727: Fri Apr 15 16:01:31 2022
+  read: IOPS=13.2k, BW=206MiB/s (216MB/s)(1451GiB/7200001msec)
+    clat (usec): min=87, max=55175, avg=506.89, stdev=134.41
+     lat (usec): min=87, max=55175, avg=507.13, stdev=134.41
+    clat percentiles (usec):
+     |  1.00th=[  306],  5.00th=[  347], 10.00th=[  375], 20.00th=[  412],
+     | 30.00th=[  437], 40.00th=[  461], 50.00th=[  482], 60.00th=[  510],
+     | 70.00th=[  537], 80.00th=[  594], 90.00th=[  676], 95.00th=[  750],
+     | 99.00th=[  881], 99.50th=[  930], 99.90th=[ 1074], 99.95th=[ 1827],
+     | 99.99th=[ 2704]
+   bw (  KiB/s): min=134123, max=244946, per=100.00%, avg=211379.81, stdev=500.85, samples=143830
+   iops        : min= 8382, max=15307, avg=13210.30, stdev=31.32, samples=143830
+  write: IOPS=13.2k, BW=206MiB/s (216MB/s)(1451GiB/7200001msec); 0 zone resets
+    clat (usec): min=56, max=34069, avg=240.99, stdev=80.42
+     lat (usec): min=56, max=34069, avg=243.60, stdev=80.48
+    clat percentiles (usec):
+     |  1.00th=[   72],  5.00th=[  104], 10.00th=[  133], 20.00th=[  176],
+     | 30.00th=[  204], 40.00th=[  229], 50.00th=[  249], 60.00th=[  269],
+     | 70.00th=[  289], 80.00th=[  310], 90.00th=[  330], 95.00th=[  347],
+     | 99.00th=[  371], 99.50th=[  379], 99.90th=[  429], 99.95th=[  519],
+     | 99.99th=[ 1057]
+   bw (  KiB/s): min=131977, max=251928, per=100.00%, avg=211420.99, stdev=839.92, samples=143830
+   iops        : min= 8247, max=15744, avg=13212.87, stdev=52.53, samples=143830
+  lat (usec)   : 100=2.21%, 250=22.90%, 500=53.38%, 750=18.91%, 1000=2.49%
+  lat (msec)   : 2=0.08%, 4=0.02%, 10=0.01%, 20=0.01%, 50=0.01%
+  lat (msec)   : 100=0.01%
+  cpu          : usr=2.22%, sys=5.42%, ctx=190158030, majf=0, minf=30411
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=95064664,95083133,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=206MiB/s (216MB/s), 206MiB/s-206MiB/s (216MB/s-216MB/s), io=1451GiB (1558GB), run=7200001-7200001msec
+  WRITE: bw=206MiB/s (216MB/s), 206MiB/s-206MiB/s (216MB/s-216MB/s), io=1451GiB (1558GB), run=7200001-7200001msec
+
+Disk stats (read/write):
+  sdc: ios=95063119/95081582, merge=0/0, ticks=46499271/21442173, in_queue=67978284, util=100.00%
+================== Data disk NO.1 End ====================
+
+
+========= Data Disk NO.2 Read And Write Begin  2022-04-15 14:01:30 ==========
+The Command Line ->>> ./tools/fio -filename=/dev/sdd -direct=1 -iodepth 1 -thread -rw=randrw -ioengine=psync -bs=16k -size=1G -numjobs=10 -runtime=7200 -group_reporting -time_based -name=mytest_2
+
+mytest_2: (g=0): rw=randrw, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=psync, iodepth=1
+...
+fio-3.20
+Starting 10 threads
+
+mytest_2: (groupid=0, jobs=10): err= 0: pid=5748: Fri Apr 15 16:01:31 2022
+  read: IOPS=373, BW=5972KiB/s (6115kB/s)(41.0GiB/7200050msec)
+    clat (usec): min=93, max=897056, avg=24543.83, stdev=51037.16
+     lat (usec): min=93, max=897057, avg=24544.26, stdev=51037.16
+    clat percentiles (usec):
+     |  1.00th=[   202],  5.00th=[   330], 10.00th=[   396], 20.00th=[   676],
+     | 30.00th=[  1237], 40.00th=[  1647], 50.00th=[  1926], 60.00th=[  2671],
+     | 70.00th=[ 15139], 80.00th=[ 33817], 90.00th=[ 83362], 95.00th=[131597],
+     | 99.00th=[242222], 99.50th=[291505], 99.90th=[404751], 99.95th=[450888],
+     | 99.99th=[566232]
+   bw (  KiB/s): min=  312, max=19252, per=100.00%, avg=5981.59, stdev=261.87, samples=143737
+   iops        : min=   12, max= 1201, avg=373.44, stdev=16.37, samples=143737
+  write: IOPS=373, BW=5977KiB/s (6120kB/s)(41.0GiB/7200050msec); 0 zone resets
+    clat (usec): min=138, max=662003, avg=2228.27, stdev=11607.47
+     lat (usec): min=140, max=662006, avg=2231.44, stdev=11607.49
+    clat percentiles (usec):
+     |  1.00th=[   194],  5.00th=[   217], 10.00th=[   233], 20.00th=[   260],
+     | 30.00th=[   289], 40.00th=[   322], 50.00th=[   375], 60.00th=[   482],
+     | 70.00th=[   668], 80.00th=[  1221], 90.00th=[  2057], 95.00th=[  7701],
+     | 99.00th=[ 33162], 99.50th=[ 72877], 99.90th=[177210], 99.95th=[219153],
+     | 99.99th=[325059]
+   bw (  KiB/s): min=  310, max=23921, per=100.00%, avg=6004.70, stdev=313.45, samples=143308
+   iops        : min=   10, max= 1493, avg=374.89, stdev=19.59, samples=143308
+  lat (usec)   : 100=0.01%, 250=9.44%, 500=28.91%, 750=8.53%, 1000=4.10%
+  lat (msec)   : 2=19.83%, 4=7.03%, 10=3.58%, 20=4.50%, 50=5.85%
+  lat (msec)   : 100=4.14%, 250=3.62%, 500=0.46%, 750=0.01%, 1000=0.01%
+  cpu          : usr=0.13%, sys=0.20%, ctx=5377032, majf=0, minf=3185
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=2687305,2689614,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=5972KiB/s (6115kB/s), 5972KiB/s-5972KiB/s (6115kB/s-6115kB/s), io=41.0GiB (44.0GB), run=7200050-7200050msec
+  WRITE: bw=5977KiB/s (6120kB/s), 5977KiB/s-5977KiB/s (6120kB/s-6120kB/s), io=41.0GiB (44.1GB), run=7200050-7200050msec
+
+Disk stats (read/write):
+  sdd: ios=2687358/2689614, merge=0/0, ticks=65877850/5931630, in_queue=71807336, util=100.00%
+================== Data disk NO.2 End ====================
+
+
+========= Data Disk NO.3 Read And Write Begin  2022-04-15 14:01:30 ==========
+The Command Line ->>> ./tools/fio -filename=/dev/sde -direct=1 -iodepth 1 -thread -rw=randrw -ioengine=psync -bs=16k -size=1G -numjobs=10 -runtime=7200 -group_reporting -time_based -name=mytest_3
+
+mytest_3: (g=0): rw=randrw, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=psync, iodepth=1
+...
+fio-3.20
+Starting 10 threads
+
+mytest_3: (groupid=0, jobs=10): err= 0: pid=5738: Fri Apr 15 16:01:32 2022
+  read: IOPS=372, BW=5962KiB/s (6105kB/s)(40.9GiB/7200027msec)
+    clat (usec): min=92, max=887839, avg=24551.98, stdev=51368.10
+     lat (usec): min=92, max=887839, avg=24552.33, stdev=51368.09
+    clat percentiles (usec):
+     |  1.00th=[   200],  5.00th=[   330], 10.00th=[   388], 20.00th=[   611],
+     | 30.00th=[  1123], 40.00th=[  1549], 50.00th=[  1827], 60.00th=[  2573],
+     | 70.00th=[ 15008], 80.00th=[ 33424], 90.00th=[ 83362], 95.00th=[132645],
+     | 99.00th=[244319], 99.50th=[295699], 99.90th=[408945], 99.95th=[455082],
+     | 99.99th=[557843]
+   bw (  KiB/s): min=  310, max=20723, per=100.00%, avg=5969.75, stdev=262.46, samples=143746
+   iops        : min=   10, max= 1293, avg=371.65, stdev=16.41, samples=143746
+  write: IOPS=372, BW=5967KiB/s (6111kB/s)(40.0GiB/7200027msec); 0 zone resets
+    clat (usec): min=138, max=720736, avg=2265.39, stdev=11853.96
+     lat (usec): min=140, max=720740, avg=2268.68, stdev=11853.97
+    clat percentiles (usec):
+     |  1.00th=[   192],  5.00th=[   217], 10.00th=[   233], 20.00th=[   260],
+     | 30.00th=[   285], 40.00th=[   318], 50.00th=[   371], 60.00th=[   474],
+     | 70.00th=[   652], 80.00th=[  1205], 90.00th=[  1991], 95.00th=[  7898],
+     | 99.00th=[ 34866], 99.50th=[ 74974], 99.90th=[179307], 99.95th=[223347],
+     | 99.99th=[329253]
+   bw (  KiB/s): min=  310, max=23131, per=100.00%, avg=5993.92, stdev=314.12, samples=143295
+   iops        : min=   10, max= 1445, avg=373.16, stdev=19.64, samples=143295
+  lat (usec)   : 100=0.01%, 250=9.67%, 500=29.77%, 750=8.61%, 1000=4.11%
+  lat (msec)   : 2=19.84%, 4=5.96%, 10=3.47%, 20=4.49%, 50=5.90%
+  lat (msec)   : 100=4.05%, 250=3.65%, 500=0.47%, 750=0.01%, 1000=0.01%
+  cpu          : usr=0.11%, sys=0.20%, ctx=5368415, majf=0, minf=2745
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=2682967,2685384,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=5962KiB/s (6105kB/s), 5962KiB/s-5962KiB/s (6105kB/s-6105kB/s), io=40.9GiB (43.0GB), run=7200027-7200027msec
+  WRITE: bw=5967KiB/s (6111kB/s), 5967KiB/s-5967KiB/s (6111kB/s-6111kB/s), io=40.0GiB (43.0GB), run=7200027-7200027msec
+
+Disk stats (read/write):
+  sde: ios=2682948/2685322, merge=0/0, ticks=65793961/6023603, in_queue=71815068, util=100.00%
+================== Data disk NO.3 End ====================
+
+
+=================  Begin Lan Stress Check 2022-04-15 14:01:30 =================
+enp134s0f0: 08:c0:eb:52:51:e8
+enp134s0f1: 08:c0:eb:52:51:e9
+enp216s0f0: 08:c0:eb:52:55:58
+enp216s0f1: 08:c0:eb:52:55:59
+enp24s0f0: d8:5e:d3:49:df:fa
+enp24s0f1: d8:5e:d3:49:df:fb
+enp62s0f2: 2c:f0:5d:f1:14:ff
+enp62s0f3: 2c:f0:5d:f1:15:00
+->>> enp134s0f0:	Speed: 10000Mb/s
+->>> enp134s0f1:	Speed: 10000Mb/s
+->>> enp216s0f0:	Speed: 10000Mb/s
+->>> enp216s0f1:	Speed: 10000Mb/s
+->>> enp24s0f0:	Speed: 1000Mb/s
+->>> enp24s0f1:	Speed: 1000Mb/s
+->>> enp62s0f2:	Speed: 1000Mb/s
+->>> enp62s0f3:	Speed: 1000Mb/s
+->>> enp134s0f0 is link! Formal 
+->>> enp134s0f1 is link! Formal 
+->>> enp216s0f0 is link! Formal 
+->>> enp216s0f1 is link! Formal 
+->>> enp24s0f0 is link! Formal 
+->>> enp24s0f1 is link! Formal 
+->>> enp62s0f2 is link! Formal 
+->>> enp62s0f3 is link! Formal 
+=============== NO.1 Begin Network Speech Check  2022-04-15 14:02:14 =================
+->>> enp134s0f0 speed is 9969Mb/s, Formal!
+->>> enp134s0f1 speed is 9972Mb/s, Formal!
+->>> enp216s0f0 speed is 9971Mb/s, Formal!
+->>> enp216s0f1 speed is 9972Mb/s, Formal!
+->>> enp24s0f0 speed is 997Mb/s, Formal!
+->>> enp24s0f1 speed is 997Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.1 End  ==========================================
+=============== NO.2 Begin Network Speech Check  2022-04-15 14:03:26 =================
+->>> enp134s0f0 speed is 9944Mb/s, Formal!
+->>> enp134s0f1 speed is 6371Mb/s, Formal!
+->>> enp216s0f0 speed is 8011Mb/s, Formal!
+->>> enp216s0f1 speed is 7147Mb/s, Formal!
+->>> enp24s0f0 speed is 979Mb/s, Formal!
+->>> enp24s0f1 speed is 986Mb/s, Formal!
+->>> enp62s0f2 speed is 990Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.2 End  ==========================================
+=============== NO.3 Begin Network Speech Check  2022-04-15 14:04:49 =================
+->>> enp134s0f0 speed is 7734Mb/s, Formal!
+->>> enp134s0f1 speed is 7589Mb/s, Formal!
+->>> enp216s0f0 speed is 6815Mb/s, Formal!
+->>> enp216s0f1 speed is 6814Mb/s, Formal!
+->>> enp24s0f0 speed is 958Mb/s, Formal!
+->>> enp24s0f1 speed is 952Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.3 End  ==========================================
+=============== NO.4 Begin Network Speech Check  2022-04-15 14:06:12 =================
+->>> enp134s0f0 speed is 7512Mb/s, Formal!
+->>> enp134s0f1 speed is 7578Mb/s, Formal!
+->>> enp216s0f0 speed is 7530Mb/s, Formal!
+->>> enp216s0f1 speed is 9966Mb/s, Formal!
+->>> enp24s0f0 speed is 992Mb/s, Formal!
+->>> enp24s0f1 speed is 983Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 986Mb/s, Formal!
+============================= NO.4 End  ==========================================
+=============== NO.5 Begin Network Speech Check  2022-04-15 14:07:41 =================
+->>> enp134s0f0 speed is 8627Mb/s, Formal!
+->>> enp134s0f1 speed is 8196Mb/s, Formal!
+->>> enp216s0f0 speed is 7750Mb/s, Formal!
+->>> enp216s0f1 speed is 6973Mb/s, Formal!
+->>> enp24s0f0 speed is 980Mb/s, Formal!
+->>> enp24s0f1 speed is 970Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 994Mb/s, Formal!
+============================= NO.5 End  ==========================================
+=============== NO.6 Begin Network Speech Check  2022-04-15 14:08:36 =================
+->>> enp134s0f0 speed is 7263Mb/s, Formal!
+->>> enp134s0f1 speed is 8573Mb/s, Formal!
+->>> enp216s0f0 speed is 6383Mb/s, Formal!
+->>> enp216s0f1 speed is 9973Mb/s, Formal!
+->>> enp24s0f0 speed is 973Mb/s, Formal!
+->>> enp24s0f1 speed is 981Mb/s, Formal!
+->>> enp62s0f2 speed is 990Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.6 End  ==========================================
+=============== NO.7 Begin Network Speech Check  2022-04-15 14:09:43 =================
+->>> enp134s0f0 speed is 6501Mb/s, Formal!
+->>> enp134s0f1 speed is 8006Mb/s, Formal!
+->>> enp216s0f0 speed is 9861Mb/s, Formal!
+->>> enp216s0f1 speed is 7272Mb/s, Formal!
+->>> enp24s0f0 speed is 988Mb/s, Formal!
+->>> enp24s0f1 speed is 981Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 995Mb/s, Formal!
+============================= NO.7 End  ==========================================
+=============== NO.8 Begin Network Speech Check  2022-04-15 14:11:15 =================
+->>> enp134s0f0 speed is 9957Mb/s, Formal!
+->>> enp134s0f1 speed is 8006Mb/s, Formal!
+->>> enp216s0f0 speed is 8162Mb/s, Formal!
+->>> enp216s0f1 speed is 7768Mb/s, Formal!
+->>> enp24s0f0 speed is 986Mb/s, Formal!
+->>> enp24s0f1 speed is 961Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 983Mb/s, Formal!
+============================= NO.8 End  ==========================================
+=============== NO.9 Begin Network Speech Check  2022-04-15 14:13:00 =================
+->>> enp134s0f0 speed is 7347Mb/s, Formal!
+->>> enp134s0f1 speed is 8010Mb/s, Formal!
+->>> enp216s0f0 speed is 6567Mb/s, Formal!
+->>> enp216s0f1 speed is 7499Mb/s, Formal!
+->>> enp24s0f0 speed is 968Mb/s, Formal!
+->>> enp24s0f1 speed is 958Mb/s, Formal!
+->>> enp62s0f2 speed is 990Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.9 End  ==========================================
+=============== NO.10 Begin Network Speech Check  2022-04-15 14:14:44 =================
+->>> enp134s0f0 speed is 7285Mb/s, Formal!
+->>> enp134s0f1 speed is 8014Mb/s, Formal!
+->>> enp216s0f0 speed is 7200Mb/s, Formal!
+->>> enp216s0f1 speed is 7845Mb/s, Formal!
+->>> enp24s0f0 speed is 979Mb/s, Formal!
+->>> enp24s0f1 speed is 970Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.10 End  ==========================================
+=============== NO.11 Begin Network Speech Check  2022-04-15 14:16:04 =================
+->>> enp134s0f0 speed is 7423Mb/s, Formal!
+->>> enp134s0f1 speed is 8096Mb/s, Formal!
+->>> enp216s0f0 speed is 9963Mb/s, Formal!
+->>> enp216s0f1 speed is 6600Mb/s, Formal!
+->>> enp24s0f0 speed is 976Mb/s, Formal!
+->>> enp24s0f1 speed is 972Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 995Mb/s, Formal!
+============================= NO.11 End  ==========================================
+=============== NO.12 Begin Network Speech Check  2022-04-15 14:18:03 =================
+->>> enp134s0f0 speed is 8394Mb/s, Formal!
+->>> enp134s0f1 speed is 8024Mb/s, Formal!
+->>> enp216s0f0 speed is 6274Mb/s, Formal!
+->>> enp216s0f1 speed is 8374Mb/s, Formal!
+->>> enp24s0f0 speed is 983Mb/s, Formal!
+->>> enp24s0f1 speed is 970Mb/s, Formal!
+->>> enp62s0f2 speed is 979Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.12 End  ==========================================
+=============== NO.13 Begin Network Speech Check  2022-04-15 14:19:41 =================
+->>> enp134s0f0 speed is 9938Mb/s, Formal!
+->>> enp134s0f1 speed is 7914Mb/s, Formal!
+->>> enp216s0f0 speed is 8008Mb/s, Formal!
+->>> enp216s0f1 speed is 8387Mb/s, Formal!
+->>> enp24s0f0 speed is 997Mb/s, Formal!
+->>> enp24s0f1 speed is 978Mb/s, Formal!
+->>> enp62s0f2 speed is 992Mb/s, Formal!
+->>> enp62s0f3 speed is 992Mb/s, Formal!
+============================= NO.13 End  ==========================================
+=============== NO.14 Begin Network Speech Check  2022-04-15 14:20:43 =================
+->>> enp134s0f0 speed is 7831Mb/s, Formal!
+->>> enp134s0f1 speed is 8057Mb/s, Formal!
+->>> enp216s0f0 speed is 7375Mb/s, Formal!
+->>> enp216s0f1 speed is 6545Mb/s, Formal!
+->>> enp24s0f0 speed is 992Mb/s, Formal!
+->>> enp24s0f1 speed is 962Mb/s, Formal!
+->>> enp62s0f2 speed is 995Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.14 End  ==========================================
+=============== NO.15 Begin Network Speech Check  2022-04-15 14:21:44 =================
+->>> enp134s0f0 speed is 8571Mb/s, Formal!
+->>> enp134s0f1 speed is 8023Mb/s, Formal!
+->>> enp216s0f0 speed is 7272Mb/s, Formal!
+->>> enp216s0f1 speed is 8017Mb/s, Formal!
+->>> enp24s0f0 speed is 978Mb/s, Formal!
+->>> enp24s0f1 speed is 970Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.15 End  ==========================================
+=============== NO.16 Begin Network Speech Check  2022-04-15 14:22:58 =================
+->>> enp134s0f0 speed is 8470Mb/s, Formal!
+->>> enp134s0f1 speed is 5869Mb/s, Formal!
+->>> enp216s0f0 speed is 8005Mb/s, Formal!
+->>> enp216s0f1 speed is 6389Mb/s, Formal!
+->>> enp24s0f0 speed is 982Mb/s, Formal!
+->>> enp24s0f1 speed is 963Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.16 End  ==========================================
+=============== NO.17 Begin Network Speech Check  2022-04-15 14:24:39 =================
+->>> enp134s0f0 speed is 9974Mb/s, Formal!
+->>> enp134s0f1 speed is 6740Mb/s, Formal!
+->>> enp216s0f0 speed is 8581Mb/s, Formal!
+->>> enp216s0f1 speed is 9947Mb/s, Formal!
+->>> enp24s0f0 speed is 979Mb/s, Formal!
+->>> enp24s0f1 speed is 979Mb/s, Formal!
+->>> enp62s0f2 speed is 986Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.17 End  ==========================================
+=============== NO.18 Begin Network Speech Check  2022-04-15 14:26:20 =================
+->>> enp134s0f0 speed is 8014Mb/s, Formal!
+->>> enp134s0f1 speed is 7659Mb/s, Formal!
+->>> enp216s0f0 speed is 7509Mb/s, Formal!
+->>> enp216s0f1 speed is 9932Mb/s, Formal!
+->>> enp24s0f0 speed is 987Mb/s, Formal!
+->>> enp24s0f1 speed is 969Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 986Mb/s, Formal!
+============================= NO.18 End  ==========================================
+=============== NO.19 Begin Network Speech Check  2022-04-15 14:27:55 =================
+->>> enp134s0f0 speed is 6866Mb/s, Formal!
+->>> enp134s0f1 speed is 6857Mb/s, Formal!
+->>> enp216s0f0 speed is 6798Mb/s, Formal!
+->>> enp216s0f1 speed is 7205Mb/s, Formal!
+->>> enp24s0f0 speed is 968Mb/s, Formal!
+->>> enp24s0f1 speed is 971Mb/s, Formal!
+->>> enp62s0f2 speed is 991Mb/s, Formal!
+->>> enp62s0f3 speed is 994Mb/s, Formal!
+============================= NO.19 End  ==========================================
+=============== NO.20 Begin Network Speech Check  2022-04-15 14:29:18 =================
+->>> enp134s0f0 speed is 6999Mb/s, Formal!
+->>> enp134s0f1 speed is 7422Mb/s, Formal!
+->>> enp216s0f0 speed is 7355Mb/s, Formal!
+->>> enp216s0f1 speed is 7219Mb/s, Formal!
+->>> enp24s0f0 speed is 963Mb/s, Formal!
+->>> enp24s0f1 speed is 963Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.20 End  ==========================================
+=============== NO.21 Begin Network Speech Check  2022-04-15 14:31:14 =================
+->>> enp134s0f0 speed is 7156Mb/s, Formal!
+->>> enp134s0f1 speed is 9890Mb/s, Formal!
+->>> enp216s0f0 speed is 6149Mb/s, Formal!
+->>> enp216s0f1 speed is 7380Mb/s, Formal!
+->>> enp24s0f0 speed is 982Mb/s, Formal!
+->>> enp24s0f1 speed is 959Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 991Mb/s, Formal!
+============================= NO.21 End  ==========================================
+=============== NO.22 Begin Network Speech Check  2022-04-15 14:33:07 =================
+->>> enp134s0f0 speed is 7586Mb/s, Formal!
+->>> enp134s0f1 speed is 8109Mb/s, Formal!
+->>> enp216s0f0 speed is 8019Mb/s, Formal!
+->>> enp216s0f1 speed is 8275Mb/s, Formal!
+->>> enp24s0f0 speed is 979Mb/s, Formal!
+->>> enp24s0f1 speed is 962Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 988Mb/s, Formal!
+============================= NO.22 End  ==========================================
+=============== NO.23 Begin Network Speech Check  2022-04-15 14:34:24 =================
+->>> enp134s0f0 speed is 6276Mb/s, Formal!
+->>> enp134s0f1 speed is 9728Mb/s, Formal!
+->>> enp216s0f0 speed is 6605Mb/s, Formal!
+->>> enp216s0f1 speed is 7930Mb/s, Formal!
+->>> enp24s0f0 speed is 974Mb/s, Formal!
+->>> enp24s0f1 speed is 967Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 986Mb/s, Formal!
+============================= NO.23 End  ==========================================
+=============== NO.24 Begin Network Speech Check  2022-04-15 14:35:50 =================
+->>> enp134s0f0 speed is 7056Mb/s, Formal!
+->>> enp134s0f1 speed is 7500Mb/s, Formal!
+->>> enp216s0f0 speed is 7218Mb/s, Formal!
+->>> enp216s0f1 speed is 7200Mb/s, Formal!
+->>> enp24s0f0 speed is 968Mb/s, Formal!
+->>> enp24s0f1 speed is 969Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.24 End  ==========================================
+=============== NO.25 Begin Network Speech Check  2022-04-15 14:36:57 =================
+->>> enp134s0f0 speed is 8011Mb/s, Formal!
+->>> enp134s0f1 speed is 7145Mb/s, Formal!
+->>> enp216s0f0 speed is 7667Mb/s, Formal!
+->>> enp216s0f1 speed is 6741Mb/s, Formal!
+->>> enp24s0f0 speed is 978Mb/s, Formal!
+->>> enp24s0f1 speed is 961Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.25 End  ==========================================
+=============== NO.26 Begin Network Speech Check  2022-04-15 14:38:51 =================
+->>> enp134s0f0 speed is 6872Mb/s, Formal!
+->>> enp134s0f1 speed is 6666Mb/s, Formal!
+->>> enp216s0f0 speed is 6873Mb/s, Formal!
+->>> enp216s0f1 speed is 7008Mb/s, Formal!
+->>> enp24s0f0 speed is 980Mb/s, Formal!
+->>> enp24s0f1 speed is 956Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 984Mb/s, Formal!
+============================= NO.26 End  ==========================================
+=============== NO.27 Begin Network Speech Check  2022-04-15 14:40:04 =================
+->>> enp134s0f0 speed is 6743Mb/s, Formal!
+->>> enp134s0f1 speed is 6528Mb/s, Formal!
+->>> enp216s0f0 speed is 7594Mb/s, Formal!
+->>> enp216s0f1 speed is 6620Mb/s, Formal!
+->>> enp24s0f0 speed is 983Mb/s, Formal!
+->>> enp24s0f1 speed is 947Mb/s, Formal!
+->>> enp62s0f2 speed is 995Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.27 End  ==========================================
+=============== NO.28 Begin Network Speech Check  2022-04-15 14:41:54 =================
+->>> enp134s0f0 speed is 7437Mb/s, Formal!
+->>> enp134s0f1 speed is 7517Mb/s, Formal!
+->>> enp216s0f0 speed is 7999Mb/s, Formal!
+->>> enp216s0f1 speed is 8470Mb/s, Formal!
+->>> enp24s0f0 speed is 994Mb/s, Formal!
+->>> enp24s0f1 speed is 961Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.28 End  ==========================================
+=============== NO.29 Begin Network Speech Check  2022-04-15 14:43:29 =================
+->>> enp134s0f0 speed is 7985Mb/s, Formal!
+->>> enp134s0f1 speed is 6500Mb/s, Formal!
+->>> enp216s0f0 speed is 6871Mb/s, Formal!
+->>> enp216s0f1 speed is 8199Mb/s, Formal!
+->>> enp24s0f0 speed is 990Mb/s, Formal!
+->>> enp24s0f1 speed is 967Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.29 End  ==========================================
+=============== NO.30 Begin Network Speech Check  2022-04-15 14:45:53 =================
+->>> enp134s0f0 speed is 7999Mb/s, Formal!
+->>> enp134s0f1 speed is 6261Mb/s, Formal!
+->>> enp216s0f0 speed is 7741Mb/s, Formal!
+->>> enp216s0f1 speed is 8576Mb/s, Formal!
+->>> enp24s0f0 speed is 958Mb/s, Formal!
+->>> enp24s0f1 speed is 981Mb/s, Formal!
+->>> enp62s0f2 speed is 991Mb/s, Formal!
+->>> enp62s0f3 speed is 991Mb/s, Formal!
+============================= NO.30 End  ==========================================
+=============== NO.31 Begin Network Speech Check  2022-04-15 14:47:31 =================
+->>> enp134s0f0 speed is 8104Mb/s, Formal!
+->>> enp134s0f1 speed is 6945Mb/s, Formal!
+->>> enp216s0f0 speed is 6857Mb/s, Formal!
+->>> enp216s0f1 speed is 9862Mb/s, Formal!
+->>> enp24s0f0 speed is 997Mb/s, Formal!
+->>> enp24s0f1 speed is 984Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 976Mb/s, Formal!
+============================= NO.31 End  ==========================================
+=============== NO.32 Begin Network Speech Check  2022-04-15 14:48:27 =================
+->>> enp134s0f0 speed is 8389Mb/s, Formal!
+->>> enp134s0f1 speed is 8004Mb/s, Formal!
+->>> enp216s0f0 speed is 7272Mb/s, Formal!
+->>> enp216s0f1 speed is 8276Mb/s, Formal!
+->>> enp24s0f0 speed is 993Mb/s, Formal!
+->>> enp24s0f1 speed is 967Mb/s, Formal!
+->>> enp62s0f2 speed is 982Mb/s, Formal!
+->>> enp62s0f3 speed is 993Mb/s, Formal!
+============================= NO.32 End  ==========================================
+=============== NO.33 Begin Network Speech Check  2022-04-15 14:50:35 =================
+->>> enp134s0f0 speed is 6618Mb/s, Formal!
+->>> enp134s0f1 speed is 8009Mb/s, Formal!
+->>> enp216s0f0 speed is 7011Mb/s, Formal!
+->>> enp216s0f1 speed is 7999Mb/s, Formal!
+->>> enp24s0f0 speed is 996Mb/s, Formal!
+->>> enp24s0f1 speed is 961Mb/s, Formal!
+->>> enp62s0f2 speed is 994Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.33 End  ==========================================
+=============== NO.34 Begin Network Speech Check  2022-04-15 14:53:32 =================
+->>> enp134s0f0 speed is 6101Mb/s, Formal!
+->>> enp134s0f1 speed is 7053Mb/s, Formal!
+->>> enp216s0f0 speed is 8018Mb/s, Formal!
+->>> enp216s0f1 speed is 6804Mb/s, Formal!
+->>> enp24s0f0 speed is 993Mb/s, Formal!
+->>> enp24s0f1 speed is 961Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.34 End  ==========================================
+=============== NO.35 Begin Network Speech Check  2022-04-15 14:54:58 =================
+->>> enp134s0f0 speed is 7692Mb/s, Formal!
+->>> enp134s0f1 speed is 8010Mb/s, Formal!
+->>> enp216s0f0 speed is 6877Mb/s, Formal!
+->>> enp216s0f1 speed is 9862Mb/s, Formal!
+->>> enp24s0f0 speed is 963Mb/s, Formal!
+->>> enp24s0f1 speed is 968Mb/s, Formal!
+->>> enp62s0f2 speed is 993Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.35 End  ==========================================
+=============== NO.36 Begin Network Speech Check  2022-04-15 14:56:09 =================
+->>> enp134s0f0 speed is 7999Mb/s, Formal!
+->>> enp134s0f1 speed is 7364Mb/s, Formal!
+->>> enp216s0f0 speed is 9972Mb/s, Formal!
+->>> enp216s0f1 speed is 8005Mb/s, Formal!
+->>> enp24s0f0 speed is 976Mb/s, Formal!
+->>> enp24s0f1 speed is 972Mb/s, Formal!
+->>> enp62s0f2 speed is 995Mb/s, Formal!
+->>> enp62s0f3 speed is 979Mb/s, Formal!
+============================= NO.36 End  ==========================================
+=============== NO.37 Begin Network Speech Check  2022-04-15 14:57:26 =================
+->>> enp134s0f0 speed is 9887Mb/s, Formal!
+->>> enp134s0f1 speed is 9861Mb/s, Formal!
+->>> enp216s0f0 speed is 6684Mb/s, Formal!
+->>> enp216s0f1 speed is 7059Mb/s, Formal!
+->>> enp24s0f0 speed is 986Mb/s, Formal!
+->>> enp24s0f1 speed is 980Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 992Mb/s, Formal!
+============================= NO.37 End  ==========================================
+=============== NO.38 Begin Network Speech Check  2022-04-15 14:59:13 =================
+->>> enp134s0f0 speed is 9860Mb/s, Formal!
+->>> enp134s0f1 speed is 6863Mb/s, Formal!
+->>> enp216s0f0 speed is 6792Mb/s, Formal!
+->>> enp216s0f1 speed is 6738Mb/s, Formal!
+->>> enp24s0f0 speed is 972Mb/s, Formal!
+->>> enp24s0f1 speed is 973Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.38 End  ==========================================
+=============== NO.39 Begin Network Speech Check  2022-04-15 15:00:41 =================
+->>> enp134s0f0 speed is 8005Mb/s, Formal!
+->>> enp134s0f1 speed is 9966Mb/s, Formal!
+->>> enp216s0f0 speed is 8080Mb/s, Formal!
+->>> enp216s0f1 speed is 6428Mb/s, Formal!
+->>> enp24s0f0 speed is 986Mb/s, Formal!
+->>> enp24s0f1 speed is 956Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.39 End  ==========================================
+=============== NO.40 Begin Network Speech Check  2022-04-15 15:02:50 =================
+->>> enp134s0f0 speed is 7918Mb/s, Formal!
+->>> enp134s0f1 speed is 9940Mb/s, Formal!
+->>> enp216s0f0 speed is 6559Mb/s, Formal!
+->>> enp216s0f1 speed is 6431Mb/s, Formal!
+->>> enp24s0f0 speed is 979Mb/s, Formal!
+->>> enp24s0f1 speed is 972Mb/s, Formal!
+->>> enp62s0f2 speed is 987Mb/s, Formal!
+->>> enp62s0f3 speed is 983Mb/s, Formal!
+============================= NO.40 End  ==========================================
+=============== NO.41 Begin Network Speech Check  2022-04-15 15:04:43 =================
+->>> enp134s0f0 speed is 9971Mb/s, Formal!
+->>> enp134s0f1 speed is 8005Mb/s, Formal!
+->>> enp216s0f0 speed is 6941Mb/s, Formal!
+->>> enp216s0f1 speed is 6604Mb/s, Formal!
+->>> enp24s0f0 speed is 988Mb/s, Formal!
+->>> enp24s0f1 speed is 962Mb/s, Formal!
+->>> enp62s0f2 speed is 994Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.41 End  ==========================================
+=============== NO.42 Begin Network Speech Check  2022-04-15 15:06:24 =================
+->>> enp134s0f0 speed is 6666Mb/s, Formal!
+->>> enp134s0f1 speed is 6869Mb/s, Formal!
+->>> enp216s0f0 speed is 6571Mb/s, Formal!
+->>> enp216s0f1 speed is 8479Mb/s, Formal!
+->>> enp24s0f0 speed is 994Mb/s, Formal!
+->>> enp24s0f1 speed is 972Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 978Mb/s, Formal!
+============================= NO.42 End  ==========================================
+=============== NO.43 Begin Network Speech Check  2022-04-15 15:07:47 =================
+->>> enp134s0f0 speed is 8190Mb/s, Formal!
+->>> enp134s0f1 speed is 8011Mb/s, Formal!
+->>> enp216s0f0 speed is 6937Mb/s, Formal!
+->>> enp216s0f1 speed is 8016Mb/s, Formal!
+->>> enp24s0f0 speed is 980Mb/s, Formal!
+->>> enp24s0f1 speed is 972Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 983Mb/s, Formal!
+============================= NO.43 End  ==========================================
+=============== NO.44 Begin Network Speech Check  2022-04-15 15:09:31 =================
+->>> enp134s0f0 speed is 9966Mb/s, Formal!
+->>> enp134s0f1 speed is 8011Mb/s, Formal!
+->>> enp216s0f0 speed is 8022Mb/s, Formal!
+->>> enp216s0f1 speed is 8023Mb/s, Formal!
+->>> enp24s0f0 speed is 974Mb/s, Formal!
+->>> enp24s0f1 speed is 987Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.44 End  ==========================================
+=============== NO.45 Begin Network Speech Check  2022-04-15 15:10:54 =================
+->>> enp134s0f0 speed is 9957Mb/s, Formal!
+->>> enp134s0f1 speed is 8010Mb/s, Formal!
+->>> enp216s0f0 speed is 7763Mb/s, Formal!
+->>> enp216s0f1 speed is 6170Mb/s, Formal!
+->>> enp24s0f0 speed is 971Mb/s, Formal!
+->>> enp24s0f1 speed is 956Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.45 End  ==========================================
+=============== NO.46 Begin Network Speech Check  2022-04-15 15:12:56 =================
+->>> enp134s0f0 speed is 8109Mb/s, Formal!
+->>> enp134s0f1 speed is 6742Mb/s, Formal!
+->>> enp216s0f0 speed is 9219Mb/s, Formal!
+->>> enp216s0f1 speed is 8571Mb/s, Formal!
+->>> enp24s0f0 speed is 962Mb/s, Formal!
+->>> enp24s0f1 speed is 975Mb/s, Formal!
+->>> enp62s0f2 speed is 980Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.46 End  ==========================================
+=============== NO.47 Begin Network Speech Check  2022-04-15 15:14:25 =================
+->>> enp134s0f0 speed is 8011Mb/s, Formal!
+->>> enp134s0f1 speed is 9974Mb/s, Formal!
+->>> enp216s0f0 speed is 6791Mb/s, Formal!
+->>> enp216s0f1 speed is 7502Mb/s, Formal!
+->>> enp24s0f0 speed is 968Mb/s, Formal!
+->>> enp24s0f1 speed is 970Mb/s, Formal!
+->>> enp62s0f2 speed is 994Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.47 End  ==========================================
+=============== NO.48 Begin Network Speech Check  2022-04-15 15:15:33 =================
+->>> enp134s0f0 speed is 8097Mb/s, Formal!
+->>> enp134s0f1 speed is 6751Mb/s, Formal!
+->>> enp216s0f0 speed is 5919Mb/s, Formal!
+->>> enp216s0f1 speed is 9971Mb/s, Formal!
+->>> enp24s0f0 speed is 980Mb/s, Formal!
+->>> enp24s0f1 speed is 925Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 994Mb/s, Formal!
+============================= NO.48 End  ==========================================
+=============== NO.49 Begin Network Speech Check  2022-04-15 15:17:17 =================
+->>> enp134s0f0 speed is 7715Mb/s, Formal!
+->>> enp134s0f1 speed is 7754Mb/s, Formal!
+->>> enp216s0f0 speed is 7008Mb/s, Formal!
+->>> enp216s0f1 speed is 7522Mb/s, Formal!
+->>> enp24s0f0 speed is 966Mb/s, Formal!
+->>> enp24s0f1 speed is 972Mb/s, Formal!
+->>> enp62s0f2 speed is 988Mb/s, Formal!
+->>> enp62s0f3 speed is 966Mb/s, Formal!
+============================= NO.49 End  ==========================================
+=============== NO.50 Begin Network Speech Check  2022-04-15 15:18:24 =================
+->>> enp134s0f0 speed is 6684Mb/s, Formal!
+->>> enp134s0f1 speed is 7357Mb/s, Formal!
+->>> enp216s0f0 speed is 7995Mb/s, Formal!
+->>> enp216s0f1 speed is 8287Mb/s, Formal!
+->>> enp24s0f0 speed is 971Mb/s, Formal!
+->>> enp24s0f1 speed is 957Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 983Mb/s, Formal!
+============================= NO.50 End  ==========================================
+=============== NO.51 Begin Network Speech Check  2022-04-15 15:19:41 =================
+->>> enp134s0f0 speed is 8475Mb/s, Formal!
+->>> enp134s0f1 speed is 9973Mb/s, Formal!
+->>> enp216s0f0 speed is 7128Mb/s, Formal!
+->>> enp216s0f1 speed is 9970Mb/s, Formal!
+->>> enp24s0f0 speed is 975Mb/s, Formal!
+->>> enp24s0f1 speed is 979Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 992Mb/s, Formal!
+============================= NO.51 End  ==========================================
+=============== NO.52 Begin Network Speech Check  2022-04-15 15:21:28 =================
+->>> enp134s0f0 speed is 7931Mb/s, Formal!
+->>> enp134s0f1 speed is 8012Mb/s, Formal!
+->>> enp216s0f0 speed is 7512Mb/s, Formal!
+->>> enp216s0f1 speed is 7377Mb/s, Formal!
+->>> enp24s0f0 speed is 976Mb/s, Formal!
+->>> enp24s0f1 speed is 967Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.52 End  ==========================================
+=============== NO.53 Begin Network Speech Check  2022-04-15 15:23:40 =================
+->>> enp134s0f0 speed is 6206Mb/s, Formal!
+->>> enp134s0f1 speed is 8009Mb/s, Formal!
+->>> enp216s0f0 speed is 6748Mb/s, Formal!
+->>> enp216s0f1 speed is 6687Mb/s, Formal!
+->>> enp24s0f0 speed is 959Mb/s, Formal!
+->>> enp24s0f1 speed is 957Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.53 End  ==========================================
+=============== NO.54 Begin Network Speech Check  2022-04-15 15:25:48 =================
+->>> enp134s0f0 speed is 9598Mb/s, Formal!
+->>> enp134s0f1 speed is 6271Mb/s, Formal!
+->>> enp216s0f0 speed is 6227Mb/s, Formal!
+->>> enp216s0f1 speed is 7513Mb/s, Formal!
+->>> enp24s0f0 speed is 967Mb/s, Formal!
+->>> enp24s0f1 speed is 962Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 983Mb/s, Formal!
+============================= NO.54 End  ==========================================
+=============== NO.55 Begin Network Speech Check  2022-04-15 15:27:30 =================
+->>> enp134s0f0 speed is 6739Mb/s, Formal!
+->>> enp134s0f1 speed is 6622Mb/s, Formal!
+->>> enp216s0f0 speed is 9965Mb/s, Formal!
+->>> enp216s0f1 speed is 7422Mb/s, Formal!
+->>> enp24s0f0 speed is 990Mb/s, Formal!
+->>> enp24s0f1 speed is 959Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.55 End  ==========================================
+=============== NO.56 Begin Network Speech Check  2022-04-15 15:29:38 =================
+->>> enp134s0f0 speed is 9974Mb/s, Formal!
+->>> enp134s0f1 speed is 6486Mb/s, Formal!
+->>> enp216s0f0 speed is 7422Mb/s, Formal!
+->>> enp216s0f1 speed is 6544Mb/s, Formal!
+->>> enp24s0f0 speed is 975Mb/s, Formal!
+->>> enp24s0f1 speed is 972Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 991Mb/s, Formal!
+============================= NO.56 End  ==========================================
+=============== NO.57 Begin Network Speech Check  2022-04-15 15:30:58 =================
+->>> enp134s0f0 speed is 7826Mb/s, Formal!
+->>> enp134s0f1 speed is 7833Mb/s, Formal!
+->>> enp216s0f0 speed is 8104Mb/s, Formal!
+->>> enp216s0f1 speed is 9599Mb/s, Formal!
+->>> enp24s0f0 speed is 959Mb/s, Formal!
+->>> enp24s0f1 speed is 996Mb/s, Formal!
+->>> enp62s0f2 speed is 995Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.57 End  ==========================================
+=============== NO.58 Begin Network Speech Check  2022-04-15 15:32:36 =================
+->>> enp134s0f0 speed is 7146Mb/s, Formal!
+->>> enp134s0f1 speed is 9728Mb/s, Formal!
+->>> enp216s0f0 speed is 6870Mb/s, Formal!
+->>> enp216s0f1 speed is 7374Mb/s, Formal!
+->>> enp24s0f0 speed is 951Mb/s, Formal!
+->>> enp24s0f1 speed is 992Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.58 End  ==========================================
+=============== NO.59 Begin Network Speech Check  2022-04-15 15:34:23 =================
+->>> enp134s0f0 speed is 7422Mb/s, Formal!
+->>> enp134s0f1 speed is 6173Mb/s, Formal!
+->>> enp216s0f0 speed is 6117Mb/s, Formal!
+->>> enp216s0f1 speed is 6990Mb/s, Formal!
+->>> enp24s0f0 speed is 970Mb/s, Formal!
+->>> enp24s0f1 speed is 951Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.59 End  ==========================================
+=============== NO.60 Begin Network Speech Check  2022-04-15 15:35:46 =================
+->>> enp134s0f0 speed is 9974Mb/s, Formal!
+->>> enp134s0f1 speed is 8007Mb/s, Formal!
+->>> enp216s0f0 speed is 6988Mb/s, Formal!
+->>> enp216s0f1 speed is 7215Mb/s, Formal!
+->>> enp24s0f0 speed is 978Mb/s, Formal!
+->>> enp24s0f1 speed is 976Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.60 End  ==========================================
+=============== NO.61 Begin Network Speech Check  2022-04-15 15:37:27 =================
+->>> enp134s0f0 speed is 8005Mb/s, Formal!
+->>> enp134s0f1 speed is 7938Mb/s, Formal!
+->>> enp216s0f0 speed is 9959Mb/s, Formal!
+->>> enp216s0f1 speed is 7363Mb/s, Formal!
+->>> enp24s0f0 speed is 988Mb/s, Formal!
+->>> enp24s0f1 speed is 911Mb/s, Formal!
+->>> enp62s0f2 speed is 986Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.61 End  ==========================================
+=============== NO.62 Begin Network Speech Check  2022-04-15 15:38:59 =================
+->>> enp134s0f0 speed is 7838Mb/s, Formal!
+->>> enp134s0f1 speed is 7499Mb/s, Formal!
+->>> enp216s0f0 speed is 8121Mb/s, Formal!
+->>> enp216s0f1 speed is 6868Mb/s, Formal!
+->>> enp24s0f0 speed is 962Mb/s, Formal!
+->>> enp24s0f1 speed is 971Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 993Mb/s, Formal!
+============================= NO.62 End  ==========================================
+=============== NO.63 Begin Network Speech Check  2022-04-15 15:40:03 =================
+->>> enp134s0f0 speed is 7764Mb/s, Formal!
+->>> enp134s0f1 speed is 8190Mb/s, Formal!
+->>> enp216s0f0 speed is 7156Mb/s, Formal!
+->>> enp216s0f1 speed is 5853Mb/s, Formal!
+->>> enp24s0f0 speed is 993Mb/s, Formal!
+->>> enp24s0f1 speed is 970Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 984Mb/s, Formal!
+============================= NO.63 End  ==========================================
+=============== NO.64 Begin Network Speech Check  2022-04-15 15:41:11 =================
+->>> enp134s0f0 speed is 7499Mb/s, Formal!
+->>> enp134s0f1 speed is 6615Mb/s, Formal!
+->>> enp216s0f0 speed is 8010Mb/s, Formal!
+->>> enp216s0f1 speed is 7584Mb/s, Formal!
+->>> enp24s0f0 speed is 982Mb/s, Formal!
+->>> enp24s0f1 speed is 957Mb/s, Formal!
+->>> enp62s0f2 speed is 986Mb/s, Formal!
+->>> enp62s0f3 speed is 988Mb/s, Formal!
+============================= NO.64 End  ==========================================
+=============== NO.65 Begin Network Speech Check  2022-04-15 15:42:21 =================
+->>> enp134s0f0 speed is 8283Mb/s, Formal!
+->>> enp134s0f1 speed is 8386Mb/s, Formal!
+->>> enp216s0f0 speed is 6750Mb/s, Formal!
+->>> enp216s0f1 speed is 8390Mb/s, Formal!
+->>> enp24s0f0 speed is 996Mb/s, Formal!
+->>> enp24s0f1 speed is 974Mb/s, Formal!
+->>> enp62s0f2 speed is 987Mb/s, Formal!
+->>> enp62s0f3 speed is 978Mb/s, Formal!
+============================= NO.65 End  ==========================================
+=============== NO.66 Begin Network Speech Check  2022-04-15 15:43:41 =================
+->>> enp134s0f0 speed is 7422Mb/s, Formal!
+->>> enp134s0f1 speed is 6439Mb/s, Formal!
+->>> enp216s0f0 speed is 7500Mb/s, Formal!
+->>> enp216s0f1 speed is 6666Mb/s, Formal!
+->>> enp24s0f0 speed is 988Mb/s, Formal!
+->>> enp24s0f1 speed is 941Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.66 End  ==========================================
+=============== NO.67 Begin Network Speech Check  2022-04-15 15:45:22 =================
+->>> enp134s0f0 speed is 6729Mb/s, Formal!
+->>> enp134s0f1 speed is 8010Mb/s, Formal!
+->>> enp216s0f0 speed is 5806Mb/s, Formal!
+->>> enp216s0f1 speed is 8003Mb/s, Formal!
+->>> enp24s0f0 speed is 984Mb/s, Formal!
+->>> enp24s0f1 speed is 960Mb/s, Formal!
+->>> enp62s0f2 speed is 983Mb/s, Formal!
+->>> enp62s0f3 speed is 985Mb/s, Formal!
+============================= NO.67 End  ==========================================
+=============== NO.68 Begin Network Speech Check  2022-04-15 15:46:17 =================
+->>> enp134s0f0 speed is 8272Mb/s, Formal!
+->>> enp134s0f1 speed is 7260Mb/s, Formal!
+->>> enp216s0f0 speed is 7210Mb/s, Formal!
+->>> enp216s0f1 speed is 6990Mb/s, Formal!
+->>> enp24s0f0 speed is 982Mb/s, Formal!
+->>> enp24s0f1 speed is 956Mb/s, Formal!
+->>> enp62s0f2 speed is 994Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.68 End  ==========================================
+=============== NO.69 Begin Network Speech Check  2022-04-15 15:47:34 =================
+->>> enp134s0f0 speed is 7421Mb/s, Formal!
+->>> enp134s0f1 speed is 9959Mb/s, Formal!
+->>> enp216s0f0 speed is 8482Mb/s, Formal!
+->>> enp216s0f1 speed is 7500Mb/s, Formal!
+->>> enp24s0f0 speed is 990Mb/s, Formal!
+->>> enp24s0f1 speed is 955Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 983Mb/s, Formal!
+============================= NO.69 End  ==========================================
+=============== NO.70 Begin Network Speech Check  2022-04-15 15:50:32 =================
+->>> enp134s0f0 speed is 7822Mb/s, Formal!
+->>> enp134s0f1 speed is 9728Mb/s, Formal!
+->>> enp216s0f0 speed is 8008Mb/s, Formal!
+->>> enp216s0f1 speed is 8013Mb/s, Formal!
+->>> enp24s0f0 speed is 985Mb/s, Formal!
+->>> enp24s0f1 speed is 942Mb/s, Formal!
+->>> enp62s0f2 speed is 979Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.70 End  ==========================================
+=============== NO.71 Begin Network Speech Check  2022-04-15 15:51:18 =================
+->>> enp134s0f0 speed is 7834Mb/s, Formal!
+->>> enp134s0f1 speed is 6729Mb/s, Formal!
+->>> enp216s0f0 speed is 8010Mb/s, Formal!
+->>> enp216s0f1 speed is 6666Mb/s, Formal!
+->>> enp24s0f0 speed is 988Mb/s, Formal!
+->>> enp24s0f1 speed is 915Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.71 End  ==========================================
+=============== NO.72 Begin Network Speech Check  2022-04-15 15:53:14 =================
+->>> enp134s0f0 speed is 7851Mb/s, Formal!
+->>> enp134s0f1 speed is 8480Mb/s, Formal!
+->>> enp216s0f0 speed is 7660Mb/s, Formal!
+->>> enp216s0f1 speed is 9221Mb/s, Formal!
+->>> enp24s0f0 speed is 957Mb/s, Formal!
+->>> enp24s0f1 speed is 963Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.72 End  ==========================================
+=============== NO.73 Begin Network Speech Check  2022-04-15 15:53:55 =================
+->>> enp134s0f0 speed is 8389Mb/s, Formal!
+->>> enp134s0f1 speed is 8088Mb/s, Formal!
+->>> enp216s0f0 speed is 8016Mb/s, Formal!
+->>> enp216s0f1 speed is 6207Mb/s, Formal!
+->>> enp24s0f0 speed is 997Mb/s, Formal!
+->>> enp24s0f1 speed is 967Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.73 End  ==========================================
+=============== NO.74 Begin Network Speech Check  2022-04-15 15:54:59 =================
+->>> enp134s0f0 speed is 9965Mb/s, Formal!
+->>> enp134s0f1 speed is 8194Mb/s, Formal!
+->>> enp216s0f0 speed is 6729Mb/s, Formal!
+->>> enp216s0f1 speed is 8379Mb/s, Formal!
+->>> enp24s0f0 speed is 975Mb/s, Formal!
+->>> enp24s0f1 speed is 983Mb/s, Formal!
+->>> enp62s0f2 speed is 987Mb/s, Formal!
+->>> enp62s0f3 speed is 994Mb/s, Formal!
+============================= NO.74 End  ==========================================
+=============== NO.75 Begin Network Speech Check  2022-04-15 15:56:07 =================
+->>> enp134s0f0 speed is 7908Mb/s, Formal!
+->>> enp134s0f1 speed is 5806Mb/s, Formal!
+->>> enp216s0f0 speed is 7200Mb/s, Formal!
+->>> enp216s0f1 speed is 7378Mb/s, Formal!
+->>> enp24s0f0 speed is 992Mb/s, Formal!
+->>> enp24s0f1 speed is 954Mb/s, Formal!
+->>> enp62s0f2 speed is 991Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.75 End  ==========================================
+=============== NO.76 Begin Network Speech Check  2022-04-15 15:58:18 =================
+->>> enp134s0f0 speed is 8007Mb/s, Formal!
+->>> enp134s0f1 speed is 6118Mb/s, Formal!
+->>> enp216s0f0 speed is 6504Mb/s, Formal!
+->>> enp216s0f1 speed is 9895Mb/s, Formal!
+->>> enp24s0f0 speed is 996Mb/s, Formal!
+->>> enp24s0f1 speed is 965Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 993Mb/s, Formal!
+============================= NO.76 End  ==========================================
+=============== NO.77 Begin Network Speech Check  2022-04-15 15:59:14 =================
+->>> enp134s0f0 speed is 7595Mb/s, Formal!
+->>> enp134s0f1 speed is 5970Mb/s, Formal!
+->>> enp216s0f0 speed is 6767Mb/s, Formal!
+->>> enp216s0f1 speed is 9972Mb/s, Formal!
+->>> enp24s0f0 speed is 981Mb/s, Formal!
+->>> enp24s0f1 speed is 972Mb/s, Formal!
+->>> enp62s0f2 speed is 991Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.77 End  ==========================================
+=============== NO.78 Begin Network Speech Check  2022-04-15 16:01:19 =================
+->>> enp134s0f0 speed is 6857Mb/s, Formal!
+->>> enp134s0f1 speed is 8012Mb/s, Formal!
+->>> enp216s0f0 speed is 8487Mb/s, Formal!
+->>> enp216s0f1 speed is 6810Mb/s, Formal!
+->>> enp24s0f0 speed is 987Mb/s, Formal!
+->>> enp24s0f1 speed is 959Mb/s, Formal!
+->>> enp62s0f2 speed is 978Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.78 End  ==========================================
+
+
+->>>[32m All Stress Check PASS ![0m 

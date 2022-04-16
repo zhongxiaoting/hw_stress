@@ -1,0 +1,8 @@
+=========== Disks Read and Write Check  2022-04-15 17:13:39 ===============
+
+->>> No Raid
+->>> System Disk is : sda
+->>> Tatol Non-system Disks: 4
+->>> Non-system Disks is : 
+['/dev/sdb', '/dev/sdc', '/dev/sdd', '/dev/sde']
+========= Data Disk NO.0 Read And Write Begin  2022-04-15 17:13:39 ==========

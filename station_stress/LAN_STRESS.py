@@ -45,7 +45,7 @@ class LAN_STRESS(Item):
 
     # Check whether the network cable is connected
     def check_network_link(self):
-        enps = self.run_cmd('ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-1]$"').split('\n')
+        enps = self.run_cmd('ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-3]$"').split('\n')
         for enp in enps:
             eth_infor = self.run_cmd("ethtool {}".format(enp))
             link_detected = re.search("Link detected: (.*)", eth_infor).group()
@@ -65,7 +65,7 @@ class LAN_STRESS(Item):
         # duration_time = 50
         day_time = datetime.datetime.now() + datetime.timedelta(seconds=c.RUN_SECONDS)
         day_time = day_time.strftime("%Y-%m-%d %H:%M:%S")
-        enps = self.run_cmd('ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-1]$"').split('\n')
+        enps = self.run_cmd('ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-3]$"').split('\n')
         while True:
             now_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             if day_time <= now_time:

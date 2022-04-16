@@ -1,0 +1,11 @@
+1、以管理员身份登入系统
+
+2、运行source install.sh
+
+3、在/var/tmp目录下打开times.log文件，在times后面填写你所要重启的次数
+
+4、运行reboot 即开始重启测试，测试完成会在/var/tmp生成reboot.log文件记录日志
+
+注：ubunut、debian 系统下需要更改/etc/rc.local 文件的第一行#!/bin/sh 为#!/bin/bash
+
+注：Centos7和Readhat7以后需要执行额外执行chmod+x /etc/rc.d/rc.local 程序才会正常运行 

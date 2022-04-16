@@ -1,0 +1,31 @@
+==============  Loss Disk Check Begin 2022-04-15 14:11:30 =================
+->>> CPU、Memory、Disks、LAN Stress Check is Running...
+->>> Disks Showing : 
+NAME            MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda               8:0    0 447.1G  0 disk 
+├─sda1            8:1    0     1G  0 part /boot
+└─sda2            8:2    0 446.1G  0 part 
+  ├─centos-root 253:0    0    50G  0 lvm  /
+  ├─centos-swap 253:1    0     4G  0 lvm  [SWAP]
+  └─centos-home 253:2    0 392.1G  0 lvm  /home
+sdb               8:16   0 447.1G  0 disk 
+sdc               8:32   0 447.1G  0 disk 
+sdd               8:48   0   1.1T  0 disk 
+sde               8:64   0   1.1T  0 disk 
+->>> Not Loss Disks! 
+=========== NO_1 Loss Disk Check End 2022-04-15 14:11:31  ===========
+->>> CPU、Memory、Disks、LAN Stress Check is Running...
+->>> Disks Showing : 
+NAME            MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda               8:0    0 447.1G  0 disk 
+├─sda1            8:1    0     1G  0 part /boot
+└─sda2            8:2    0 446.1G  0 part 
+  ├─centos-root 253:0    0    50G  0 lvm  /
+  ├─centos-swap 253:1    0     4G  0 lvm  [SWAP]
+  └─centos-home 253:2    0 392.1G  0 lvm  /home
+sdb               8:16   0 447.1G  0 disk 
+sdc               8:32   0 447.1G  0 disk 
+sdd               8:48   0   1.1T  0 disk 
+sde               8:64   0   1.1T  0 disk 
+->>> Not Loss Disks! 
+=========== NO_2 Loss Disk Check End 2022-04-15 15:11:32  ===========

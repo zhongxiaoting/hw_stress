@@ -1,0 +1,13 @@
+=============  CPU MCE Check Begin  2022-04-15 16:56:22 ================
+No Memory errors.
+
+No PCIe AER errors.
+
+No Extlog errors.
+No MCE errors.
+==============  CPU MCE Check End  2022-04-15 16:56:22 =================
+->>>[32m  CPU MCE PASS [0m
+=============  MEM ECC Check Begin  2022-04-15 16:56:22 ================
+  12 | 04/15/2022 | 20:56:22 | Event Logging Disabled #0x27 | Log area reset/cleared | Asserted
+==============  MEM ECC Check End  2022-04-15 16:56:22 =================
+->>>[32m MEM ECC PASS [0m

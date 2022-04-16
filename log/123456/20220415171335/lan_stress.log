@@ -1,0 +1,45 @@
+=================  Begin Lan Stress Check 2022-04-15 17:13:39 =================
+enp134s0f0: 08:c0:eb:52:51:e8
+enp134s0f1: 08:c0:eb:52:51:e9
+enp216s0f0: 08:c0:eb:52:55:58
+enp216s0f1: 08:c0:eb:52:55:59
+enp24s0f0: d8:5e:d3:49:df:fa
+enp24s0f1: d8:5e:d3:49:df:fb
+enp62s0f2: 2c:f0:5d:f1:14:ff
+enp62s0f3: 2c:f0:5d:f1:15:00
+->>> enp134s0f0:	Speed: 10000Mb/s
+->>> enp134s0f1:	Speed: 10000Mb/s
+->>> enp216s0f0:	Speed: 10000Mb/s
+->>> enp216s0f1:	Speed: 10000Mb/s
+->>> enp24s0f0:	Speed: 1000Mb/s
+->>> enp24s0f1:	Speed: 1000Mb/s
+->>> enp62s0f2:	Speed: 1000Mb/s
+->>> enp62s0f3:	Speed: 1000Mb/s
+->>> enp134s0f0 is link! Formal 
+->>> enp134s0f1 is link! Formal 
+->>> enp216s0f0 is link! Formal 
+->>> enp216s0f1 is link! Formal 
+->>> enp24s0f0 is link! Formal 
+->>> enp24s0f1 is link! Formal 
+->>> enp62s0f2 is link! Formal 
+->>> enp62s0f3 is link! Formal 
+=============== NO.1 Begin Network Speech Check  2022-04-15 17:14:23 =================
+->>> enp134s0f0 speed is 9963Mb/s, Formal!
+->>> enp134s0f1 speed is 9973Mb/s, Formal!
+->>> enp216s0f0 speed is 9975Mb/s, Formal!
+->>> enp216s0f1 speed is 9968Mb/s, Formal!
+->>> enp24s0f0 speed is 997Mb/s, Formal!
+->>> enp24s0f1 speed is 997Mb/s, Formal!
+->>> enp62s0f2 speed is 997Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.1 End  ==========================================
+=============== NO.2 Begin Network Speech Check  2022-04-15 17:15:35 =================
+->>> enp134s0f0 speed is 9890Mb/s, Formal!
+->>> enp134s0f1 speed is 7422Mb/s, Formal!
+->>> enp216s0f0 speed is 6676Mb/s, Formal!
+->>> enp216s0f1 speed is 7142Mb/s, Formal!
+->>> enp24s0f0 speed is 971Mb/s, Formal!
+->>> enp24s0f1 speed is 966Mb/s, Formal!
+->>> enp62s0f2 speed is 986Mb/s, Formal!
+->>> enp62s0f3 speed is 997Mb/s, Formal!
+============================= NO.2 End  ==========================================

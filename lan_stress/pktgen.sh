@@ -13,7 +13,7 @@ j=0
 
 i=0
 declare -a array_mac
-for enp in `ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-1]$"`
+for enp in `ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-3]$"`
 do
   mac=$(ifconfig $enp |grep -Eo '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}')
   #echo $mac
@@ -22,7 +22,7 @@ do
   i=$(($i+1))
 done
 
-for i in `ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-1]$"`
+for i in `ls /sys/class/net | grep -E "enp[a-z0-9]+f[0-3]$"`
 do
 #   echo $mac
     ifconfig $i mtu 9000

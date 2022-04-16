@@ -1,0 +1,1894 @@
+=============  MEM Stress Check Begin  2022-04-15 14:03:00 ================
+The Command Line ->>> timeout 7200 taskset -c 1 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 2 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 3 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 4 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 5 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 6 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 7 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 8 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 9 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 10 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 11 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 12 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 13 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 14 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 15 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 16 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 17 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 18 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 19 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 20 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 21 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 23 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 22 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 24 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 25 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 27 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 26 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 28 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 29 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 31 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 30 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 32 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 33 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 34 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 35 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 36 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 37 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 38 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 39 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 40 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 41 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 43 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 42 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 44 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 45 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 47 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 46 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 48 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 49 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 50 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 51 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 52 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 53 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 54 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 55 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 56 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 58 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 57 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 59 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 60 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 62 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 61 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 63 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 64 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 66 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 65 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 68 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 67 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 69 ./tools/memtester 5525 1
+
+The Command Line ->>> timeout 7200 taskset -c 70 ./tools/memtester 5525 1
+
+
+->>NO 31 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 6 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 19 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 55 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 21 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 47 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 36 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 52 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 17 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 48 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 44 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 22 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 27 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 12 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 24 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 64 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 39 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 66 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 23 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 57 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 41 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 29 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 34 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 9 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 70 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 32 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 37 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 26 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 62 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 56 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 65 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 61 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 63 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 38 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 13 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 54 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 28 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 67 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 30 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 49 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 60 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 33 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 1 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 16 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 35 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 68 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 50 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 25 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 8 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 51 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 5 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 3 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 46 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 18 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 4 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 14 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 45 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 11 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 53 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 40 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 59 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 20 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 15 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 42 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 69 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 58 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 2 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 7 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 10 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+->>NO 43 processor: 
+memtester version 4.5.1 (64bit)
+Copyright (C) 20012020 Charles Cazabon.
+Licensed under the GNU General Public License version 2 (only).
+
+pagesize is 4096
+pagesizemask is 0xfffffffffffff000
+want 5525MB (5793382400 bytes)
+got  5525MB (5793382400 bytes), trying mlock ...locked.
+Loop 1/1:
+  Stuck Address       :ok
+  Random Value        :   ok
+  Compare XOR         : ok
+  Compare SUB         : ok
+  Compare MUL         : ok
+  Compare DIV         : ok
+  Compare OR          : ok
+  Compare AND         : ok
+  Sequential Increment: ok
+  Solid Bits          :ok
+  Block Sequential    :ok
+  Checkerboard        :ok
+  Bit Spread          :ok
+  Bit Flip            :
+
+==============  MEM Stress Check End  2022-04-15 16:03:04 =================
+->>>[32m MEM Check PASS [0m 

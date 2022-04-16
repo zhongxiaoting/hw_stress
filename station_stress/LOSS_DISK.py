@@ -2,6 +2,7 @@
 import os
 import sys
 import time
+import datetime
 from time import sleep
 from utils import handle as h, log as l
 from common import common_value as cv, constants as c
@@ -19,11 +20,14 @@ class LOSS_DISK(Item):
         sleep(c.WAIT_LOSS_DISK_TIME)
         disks = self.get_disk()
         write_log("==============  Loss Disk Check Begin " + get_local_time_string() + " =================")
+        day_time = datetime.datetime.now() + datetime.timedelta(seconds=c.RUN_SECONDS)
+        day_time = day_time.strftime("%Y-%m-%d %H:%M:%S")
         while True:
             fio = fio_run()
             memtester = mem_run()
             stress = stress_run()
             lan = lan_run()
+            
             # print("stress->> " + str(stress) + "   memtester->> " + str(memtester) + "   fio->> "
             #           + str(fio))
             if stress and memtester and fio and lan:
@@ -46,8 +50,11 @@ class LOSS_DISK(Item):
                 break
             else:
                 pass
-
-            sleep(c.LOSS_DISK_TIME)
+            now_time = datetime.datetime.now() + datetime.timedelta(seconds=c.LOSS_DISK_TIME)
+            if now_time >= day_time:
+                break
+            else:
+                sleep(c.LOSS_DISK_TIME)
         return
 
     def get_disk(self):

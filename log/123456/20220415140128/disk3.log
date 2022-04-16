@@ -1,0 +1,48 @@
+========= Data Disk NO.3 Read And Write Begin  2022-04-15 14:01:30 ==========
+The Command Line ->>> ./tools/fio -filename=/dev/sde -direct=1 -iodepth 1 -thread -rw=randrw -ioengine=psync -bs=16k -size=1G -numjobs=10 -runtime=7200 -group_reporting -time_based -name=mytest_3
+
+mytest_3: (g=0): rw=randrw, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=psync, iodepth=1
+...
+fio-3.20
+Starting 10 threads
+
+mytest_3: (groupid=0, jobs=10): err= 0: pid=5738: Fri Apr 15 16:01:32 2022
+  read: IOPS=372, BW=5962KiB/s (6105kB/s)(40.9GiB/7200027msec)
+    clat (usec): min=92, max=887839, avg=24551.98, stdev=51368.10
+     lat (usec): min=92, max=887839, avg=24552.33, stdev=51368.09
+    clat percentiles (usec):
+     |  1.00th=[   200],  5.00th=[   330], 10.00th=[   388], 20.00th=[   611],
+     | 30.00th=[  1123], 40.00th=[  1549], 50.00th=[  1827], 60.00th=[  2573],
+     | 70.00th=[ 15008], 80.00th=[ 33424], 90.00th=[ 83362], 95.00th=[132645],
+     | 99.00th=[244319], 99.50th=[295699], 99.90th=[408945], 99.95th=[455082],
+     | 99.99th=[557843]
+   bw (  KiB/s): min=  310, max=20723, per=100.00%, avg=5969.75, stdev=262.46, samples=143746
+   iops        : min=   10, max= 1293, avg=371.65, stdev=16.41, samples=143746
+  write: IOPS=372, BW=5967KiB/s (6111kB/s)(40.0GiB/7200027msec); 0 zone resets
+    clat (usec): min=138, max=720736, avg=2265.39, stdev=11853.96
+     lat (usec): min=140, max=720740, avg=2268.68, stdev=11853.97
+    clat percentiles (usec):
+     |  1.00th=[   192],  5.00th=[   217], 10.00th=[   233], 20.00th=[   260],
+     | 30.00th=[   285], 40.00th=[   318], 50.00th=[   371], 60.00th=[   474],
+     | 70.00th=[   652], 80.00th=[  1205], 90.00th=[  1991], 95.00th=[  7898],
+     | 99.00th=[ 34866], 99.50th=[ 74974], 99.90th=[179307], 99.95th=[223347],
+     | 99.99th=[329253]
+   bw (  KiB/s): min=  310, max=23131, per=100.00%, avg=5993.92, stdev=314.12, samples=143295
+   iops        : min=   10, max= 1445, avg=373.16, stdev=19.64, samples=143295
+  lat (usec)   : 100=0.01%, 250=9.67%, 500=29.77%, 750=8.61%, 1000=4.11%
+  lat (msec)   : 2=19.84%, 4=5.96%, 10=3.47%, 20=4.49%, 50=5.90%
+  lat (msec)   : 100=4.05%, 250=3.65%, 500=0.47%, 750=0.01%, 1000=0.01%
+  cpu          : usr=0.11%, sys=0.20%, ctx=5368415, majf=0, minf=2745
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=2682967,2685384,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=5962KiB/s (6105kB/s), 5962KiB/s-5962KiB/s (6105kB/s-6105kB/s), io=40.9GiB (43.0GB), run=7200027-7200027msec
+  WRITE: bw=5967KiB/s (6111kB/s), 5967KiB/s-5967KiB/s (6111kB/s-6111kB/s), io=40.0GiB (43.0GB), run=7200027-7200027msec
+
+Disk stats (read/write):
+  sde: ios=2682948/2685322, merge=0/0, ticks=65793961/6023603, in_queue=71815068, util=100.00%
+================== Data disk NO.3 End ====================
