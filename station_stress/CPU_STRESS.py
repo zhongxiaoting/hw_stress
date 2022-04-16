@@ -38,7 +38,7 @@ class CPU_STRESS(Item):
     def stress_check(self):
         thread_num = cv.get_thread_num()
         # cv.remove_log(c.CPU_STRESS_LOG_PATH)
-        shell = "stress -c {} -t {} ".format(thread_num, c.RUN_SECONDS)
+        shell = "./tools/stress -c {} -t {} ".format(thread_num, c.RUN_SECONDS)
         # print(cpu_infor)
         write_log("=============  CPU Stress Check Begin  " + get_local_time_string() + " ================")
         write_log("The Command Line ->>> " + shell + "\n")

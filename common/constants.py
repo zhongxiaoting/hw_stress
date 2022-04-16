@@ -32,7 +32,8 @@ BLACK_LIST_LOG = STRESS_LOG + '/blacklistall.log'
 OPERATOR_MINI_NUMBER = 4
 
 # define run time
-RUN_SECONDS = 86400
+# RUN_SECONDS = 86400
+RUN_SECONDS = m.set_run_seconds()
 
 # loss Disk check wait time
 WAIT_LOSS_DISK_TIME = 600

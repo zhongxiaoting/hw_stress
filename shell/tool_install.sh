@@ -3,6 +3,8 @@ core_num=$(cat /proc/cpuinfo | grep -c processor)-5
 core_num=`expr "$core_num" - 5`
 
 cd /home/hw_stress/tools
+chmod +x fio MegaCli64 memtester storcli64 stress
+
 #tar -zxvf /home/hw_stress/tools/stress-1.0.4.tar.gz
 #tar -zxvf /home/hw_stress/tools/memtester-4.5.1.tar.gz
 #tar -zxvf /home/hw_stress/tools/fio-3.20.tar.gz

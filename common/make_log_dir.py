@@ -4,7 +4,8 @@ import os
 import time
 
 # define sn  number minimum value
-SN_MINI_NUMBER= 6
+SN_MINI_NUMBER = 6
+
 
 # scan sn number
 def scan_sn():
@@ -19,7 +20,9 @@ def scan_sn():
             break
     return sn
 
+
 sn_path = scan_sn()
+
 
 # make an SN folder to save logs
 def make_sn_dir():
@@ -29,9 +32,9 @@ def make_sn_dir():
     return sn_path
 
 
-
 def get_local_time_string():
     return time.strftime('%04Y%m%d%H%M%S', time.localtime(time.time()))
+
 
 # save logs for each run
 def make_date_log_dir():
@@ -43,6 +46,15 @@ def make_date_log_dir():
     return date_dir
 
 
-
-
-
+# waiting input run seconds
+# author: Hanyuan Chen
+def set_run_seconds():
+    while True:
+        input_run_seconds = raw_input('Please set run seconds:')
+        if len(input_run_seconds) == 0 or input_run_seconds.isdigit() == False:
+            print "Your input is invalid, Please retry..."
+            continue
+        else:
+            run_seconds = int(input_run_seconds)
+            break
+    return run_seconds

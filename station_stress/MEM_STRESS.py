@@ -31,7 +31,7 @@ class MEM_STRESS(Item):
         # free_mem = 10240
         # free_mem = self.get_mem() * 0.8
         # self.lock = multiprocessing.Lock()
-        shell = "timeout {} taskset -c {} memtester {} 1".format(c.RUN_SECONDS, i, every_mem)
+        shell = "timeout {} taskset -c {} ./tools/memtester {} 1".format(c.RUN_SECONDS, i, every_mem)
         write_log("The Command Line ->>> " + shell + "\n")
         mem_info = commands.getoutput(shell)
         rep = {'\x2d': '', '\x08': '', '\x5c': '', '\x7c': '', '\x2f\x08': ''}

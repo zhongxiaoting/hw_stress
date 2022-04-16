@@ -424,7 +424,7 @@ class BlackListCheck(Item):
     def check_SEL(self):
         match_keys = "abort,cancel,correctable ECC,critical,degrate,disconnect,Deasserted,down,expired,Err,Error," \
                      "exception,failed,failure,Fault,halt,hot,insufficient,link down,linkdown,limit,lost,miss," \
-                     "Mismatch,reset,shutdown,shut down,shortage,unstable,unrecoverable,unreachable," \
+                     "Mismatch,shutdown,shut down,shortage,unstable,unrecoverable,unreachable," \
                      "Uncorrectable ECC,warning"
         white_list = "qwert,yuiop"
         sel_list = []

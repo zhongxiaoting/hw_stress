@@ -20,6 +20,6 @@ sleep 3
 #Make raid0 for eache hdd
 ./storcli64 /c0 add vd each type=raid0 drives="$edislot"
 
-sleep 5
+sleep 3
 lsblk
 

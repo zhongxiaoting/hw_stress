@@ -27,7 +27,7 @@ class HDD_STRESS(Item):
         write_log0(all_data_disks)
         for data_disk in all_data_disks:
             data_disk_t = threading.Thread(target=self.random_read_write, args=(data_disk,str(i)))
-            data_disk_t.setDaemon(True)
+            # data_disk_t.setDaemon(True)
             data_disk_t.start()
             i += 1
         return
@@ -43,7 +43,7 @@ class HDD_STRESS(Item):
 
         write_log("========= Data Disk NO." + i + " Read And Write Begin  " + get_local_time_string() + " ==========", i)
 
-        shell = "fio -filename={} -direct=1 -iodepth 1" \
+        shell = "./tools/fio -filename={} -direct=1 -iodepth 1" \
                 " -thread -rw=randrw -ioengine=psync -bs=16k" \
                 " -size=1G -numjobs=10 -runtime={} -group_reporting -time_based" \
                 " -name=mytest_{}".format(data_disk, c.RUN_SECONDS, i)
